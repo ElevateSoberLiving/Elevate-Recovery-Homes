@@ -1,0 +1,10 @@
+.navbar{
+    &__menu{
+        display: flex;
+        list-style-type: none;
+
+        &__item{
+            text-decoration: none;
+        }
+    }
+}
