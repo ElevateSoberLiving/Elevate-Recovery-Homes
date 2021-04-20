@@ -27,23 +27,25 @@
   margin: 2rem;
 }
 
-.splash{
-  height: 25rem;
-  z-index: 0;
-  background-color: $yellow;
+.hero{
 
   &__title{
-    width: clamp(45ch, 50%, 75ch);
+    position: absolute;
+    top: 40vh;
+    left: calc(50vw - 27.5vw);
+    margin: 0 auto;
+    width: 55vw;
+    z-index: 1;
+  }
 
-    &--button{
-      border: solid 1px white;
-      color: white;
-      padding: 1rem;
-      background: transparent;
-      border-radius: 3rem;
-      margin: .5rem;
+  &__slider{
+    &--image{
+      margin-top: 15vh;
+      height: 75vh;
+      width: 100vw;
+      filter: grayscale(80%);
     }
-  }  
+  }
 }
 
 .hamburger{
