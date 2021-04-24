@@ -1,10 +1,35 @@
 .navbar{
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     &__menu{
         display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
         list-style-type: none;
-
+        padding: 0 2rem;
         &__item{
             text-decoration: none;
         }
     }
+}
+
+
+.links{
+    text-decoration: none;
+
+    &:active{
+        color: white;
+        
+    }
+
+    &:visited{
+        color: white;
+    }
+}
+
+.links:hover{
+    color: $yellow;
 }
