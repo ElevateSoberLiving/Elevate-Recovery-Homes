@@ -1,10 +1,11 @@
 import './App.scss';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs'
+import Location from './pages/Location'
+import Program from './pages/Program'
+import Admissions from './pages/Admissions'
 import Contact from './pages/Contact'
-import OurHouses from './pages/OurHouses'
-import WhyUs from './pages/WhyUs'
-import Faq from './pages/Faq'
+
 import FixedHeader from './Components/FixedHeader'
 import Hero from './Components/Hero'
 import Footer from './Components/Footer'
@@ -24,10 +25,10 @@ function App() {
         <Switch>
           <Route path="/" exact  component={Home} />
           <Route path="/about" component={AboutUs} />
-          <Route path="/our-houses" component={OurHouses} />
-          <Route path="why-us" component={WhyUs} />
-          <Route path="faq" component={Faq} />
-          <Route path="contact" component={Contact} />
+          <Route path="/location" component={Location} />
+          <Route path="/program" component={Program} />
+          <Route path="/admissions" component={Admissions} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </Router>

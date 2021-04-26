@@ -10,6 +10,7 @@
         align-items: center;
         list-style-type: none;
         padding: 0 2rem;
+        
         &__item{
             text-decoration: none;
         }
@@ -20,7 +21,7 @@
 .links{
     text-decoration: none;
 
-    &:active{
+    &:link{
         color: white;
         
     }

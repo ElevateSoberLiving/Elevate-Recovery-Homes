@@ -24,13 +24,13 @@ function Footer() {
                         <Link className="links" to="/about">About us</Link>
                     </li>
                     <li >
-                        <Link className="links" to="/our-houses">Our Houses</Link>
+                        <Link className="links" to="/location">Location</Link>
                     </li>
                     <li >
-                        <Link className="links" to="/why-us">About us</Link>
+                        <Link className="links" to="/program">Program</Link>
                     </li>
                     <li >
-                        <Link className="links" to="/faq">FAQ</Link>
+                        <Link className="links" to="/admissions">Admissions</Link>
                     </li>
                     <li >
                         <Link className="links" to="/contact">Contact</Link>

@@ -1,0 +1,58 @@
+
+
+.home{
+
+
+    &__first-image{
+        height: 30vw;
+        margin: 0 2rem 0 0;
+    }
+
+    &__first{
+        margin: 3rem;
+        display: flex;
+        align-items: center;
+
+        &--logo{
+            height: 20vw;
+        }
+
+        &--header{
+            text-align: left;
+            color: $slate-gray;
+            width: 95%;
+            margin: 1rem auto 0.25rem;
+        }
+    }
+
+    
+    
+    &__second{
+        position: relative;
+        background-color: $black;
+        color: $slate-gray;
+        padding: 6rem;
+        margin: 10rem 0;
+    }
+    
+    &__second::before, &__second::after{
+        content: '';
+        position: absolute;
+        height: 10rem;
+        width: 10rem;
+        background-color: $black;
+        z-index: -1;
+    }
+
+    &__second::before{
+        transform: rotate(58deg);
+        top: -3rem;
+        left: calc(50% - 3rem);
+    }
+
+    &__second::after{
+        transform: rotate(52deg);
+        left: calc(50% - 8rem);
+        top: -0.9rem;
+    }
+}
