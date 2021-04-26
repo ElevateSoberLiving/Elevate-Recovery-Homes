@@ -1,0 +1,30 @@
+.fixed-header{
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    z-index:2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(white, white);
+  
+    &__menu{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: black;
+      width: 58vw;
+      height: 100%;
+      padding: 0 2rem;
+      clip-path: polygon(calc(0% + 10vw) 0, 100% 0, 100% 100%, 0 100%);
+    }
+  
+    &__logo{
+      height: 11vh;
+      // margin: 2rem;
+    }
+  }
+  
+  .fixed-header img {
+    margin: 2rem;
+  }
