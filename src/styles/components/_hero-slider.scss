@@ -1,0 +1,60 @@
+.hero{
+    
+
+    &__title{
+        color: $white-smoke;
+        position: absolute;
+        top: 40vh;
+        left: calc(50vw - 27.5vw);
+        margin: 0 auto;
+        width: 55vw;
+        z-index: 1;
+        padding: 2rem;
+        border-radius: 10px;
+        background-color: hsla(180,12%,3%, .6);
+
+        &--header{
+            color: $white-smoke;
+        }
+
+        &--body{
+            color: $white-smoke;
+        }
+
+        &--button{
+            color: $white-smoke;
+            padding: .5rem 2rem;
+            background: transparent;
+            border: solid 1px $yellow;
+            border-radius: 20px;
+            margin-top: 1rem;
+        }
+
+        &--button:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    &__image{
+        margin-top: 15vh;
+        height: 75vh;
+        width: 100vw;
+        filter: grayscale(100%);
+    }
+
+    &__slider{
+
+        &--image{
+            opacity: 0;
+            transition-duration: 3s ease ;
+            animation-duration: 3s;
+            transition: all 2s ease;
+
+            &--active{
+                opacity: 1;
+                transition: transform opacity;
+                transition-duration: 3s;
+            }
+        }
+    }
+}

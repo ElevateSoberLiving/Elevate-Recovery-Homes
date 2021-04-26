@@ -20,6 +20,7 @@
 
     &__social{
         color: $black;
+        width: 40%;
         height: 2.5rem;
         display: flex;
         justify-content: space-around;
@@ -38,6 +39,8 @@
     &__menu{
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        list-style-type: none;
     }
 }
 

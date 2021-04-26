@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
 import Group3 from '../Assets/Images/Stock-Group3.jpg'
+import EmbedVideo from '../Components/EmbedVideo'
 
 function Home() {
     return (
@@ -19,8 +20,12 @@ function Home() {
             </section>
             <section className="home__second">
                 <h2>Some Header second</h2>
+                <hr id="second-break" />
                 <p>Our philosophy here at Elevate is just that to Elevate. Elevate ourselves mind, body and spirit. We take a modern approach, believing that there are a thousand paths to the place of lasting recovery. Everyone's journey is unique and special. We just guild you with the four pillars of our program: structure, accountability, support and action. You choose the path that best fits your recovery.</p>
                 <Link to="/about-us">About us philosophy</Link>
+            </section>
+            <section className="home__third">
+                <EmbedVideo />
             </section>
         </div>
     )
