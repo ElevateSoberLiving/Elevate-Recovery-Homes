@@ -23,7 +23,7 @@ function App() {
         <FixedHeader />
         <Hero />
         <Switch>
-          <Route path="/" exact  component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/about" component={AboutUs} />
           <Route path="/location" component={Location} />
           <Route path="/program" component={Program} />

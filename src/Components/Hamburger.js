@@ -1,11 +1,15 @@
 import React from 'react'
 
-function Hamburger() {
+function Hamburger({ setShowMenu, showMenu }) {
+    const handleClick = () => {
+        setShowMenu(!showMenu)
+    }
+
     return (
-        <div className="hamburger">
-            <div className="hamburger__one"></div>
-            <div className="hamburger__two"></div>
-            <div className="hamburger__three"></div>
+        <div className="hamburger" onClick={handleClick}>
+            <div className={`hamburger__one${showMenu ? `--active`  : ''}`}></div>
+            <div className={`hamburger__two${showMenu ? `--active` : ''}`}></div>
+            <div className={`hamburger__three${showMenu ? `--active` : ''}`}></div>
         </div>
     )
 }

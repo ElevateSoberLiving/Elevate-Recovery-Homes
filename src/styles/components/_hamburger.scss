@@ -1,19 +1,45 @@
 .hamburger{
-  
+    position: relative;
+    z-index: 3;
     & div{
+      transform-origin: 1px;
       margin: 5px;
-      border: solid 1px white;
+      border-style: solid;
+      border-width: 1px;
       border-radius: 8px;
       width: 20px;
+
+      &--active{
+        border-color: $yellow;
+      }
     }
   
     &__one{
-      
+      border-color: $white-smoke;
+      transition: all 1s ease;
+      &--active{
+        border-color: $yellow;
+        transform: rotate(45deg);
+        transition: all 1s ease;
+      }
     }
     &__two{
-  
+      opacity: 1;
+      transition: all 1s ease;
+      border-color: $white-smoke;
+      &--active{
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 1s ease;
+      }
     }
     &__three{
-  
+      border-color: $white-smoke;
+      transition: all 1s ease;
+      &--active{
+        border-color: $yellow;
+        transform: rotate(-45deg);
+        transition: all 1s ease;
+      }
     }
   }
