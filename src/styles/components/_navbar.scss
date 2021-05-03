@@ -56,12 +56,12 @@
     z-index: 3;
     clip-path: polygon(calc(0% + 10vw) 0, 100% 0, 100% 100%, 0 100%);
 
-    transform: translateX(0vw);
-    transition: transform 1s ease;
+    transform: translateX(55vw);
+    transition: all 1s ease;
     
     &--active{
-        transform: translateX(55vw);
-        transition: transform 1s ease;
+        transform: translateX(0vw);
+        transition: all 1s ease;
     }
 }
 

@@ -1,0 +1,25 @@
+.location{
+
+    &  section{
+        display: flex;
+        margin: 5rem 7rem;
+
+        & img{
+            height: 75vh;
+        }
+    }
+
+    &__metro{
+        & img{
+            margin: 0 2rem 0 0;
+        }
+    }
+
+
+
+    &__importantance{
+        & img{
+            margin: 0 0 0 2rem;
+        }
+    }
+}

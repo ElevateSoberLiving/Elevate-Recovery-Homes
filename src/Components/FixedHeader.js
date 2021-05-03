@@ -10,7 +10,7 @@ function FixedHeader() {
             <img className="fixed-header__logo" src={Logo} alt="Elevate Recovery Homes Logo" />
             <div className="fixed-header__menu">
                 <div className="background"></div>
-                <div className={`menu-background${!showMenu ? `--active` : ''}`}></div>
+                <div className={`menu-background${showMenu ? `--active` : ''}`}></div>
                 <NavBar showMenu={showMenu}/>
                 <Hamburger showMenu={showMenu} setShowMenu={setShowMenu}/>
             </div>
