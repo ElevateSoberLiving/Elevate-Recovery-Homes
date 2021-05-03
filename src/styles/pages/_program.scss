@@ -1,0 +1,82 @@
+.program{
+
+
+    &__why-us{
+        &--choose{
+            background: $black;
+            color: $white-smoke;
+            padding: 10rem 9rem;
+            clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
+
+            & h2{
+                font-size: 30px;
+                color: $slate-gray;
+                letter-spacing: 3px;
+            }
+            
+            & hr{
+                border-color: $yellow;
+                width: 35%;
+                margin: .25rem auto;
+            }
+            
+            & h5{
+                font-size: 15px;
+                color: $slate-gray;
+                letter-spacing: 3px;
+                margin-bottom: 1rem;
+            }
+
+            & p{
+                text-align: left;
+            }
+        }
+
+
+        &--pillars{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 3rem 0;
+
+            &--cards{
+                box-shadow: 0 0 6px hsla(0, 0%, 0%, .3);
+                border-radius: 6px;
+                margin: 2rem;
+                padding: 1rem;
+            }
+        }
+    }
+
+
+    &__what-to-expect{
+        margin: 3rem 10rem;
+
+        & h2{
+            font-size: 30px;
+            letter-spacing: 3px;
+        }
+
+        & hr{
+            border-color: $yellow;
+            width: 35%;
+            margin: .25rem auto;
+        }
+        
+        & p{
+            text-align: left;
+            color: $slate-gray;
+        }
+    }
+}
+
+#why-us--elevation-plan{
+    border: solid 1px $white-smoke;
+    border-radius: 20px;
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+    background: transparent;
+}
+
+#elevation-plan{
+    color: $white-smoke;
+}
