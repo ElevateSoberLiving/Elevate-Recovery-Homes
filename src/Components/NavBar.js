@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar({ showMenu }) {
     return (
-        <nav className={`navbar${showMenu ? `--active` : ''}`}>
+        <nav className={`navbar${showMenu ? '' : `--active`}`}>
             
             <ul className="navbar__menu">
                 <li >
