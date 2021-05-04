@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom'
 import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
 import Group3 from '../Assets/Images/Stock-Group3.jpg'
 import EmbedVideo from '../Components/EmbedVideo'
+import Hero from '../Components/Hero'
 
 function Home() {
     return (
         <div className="home">
-
+            <Hero />
             <section className="home__first">
                 <img className="home__first-image" src={Group3} alt="Group having fun" />
                 <div >

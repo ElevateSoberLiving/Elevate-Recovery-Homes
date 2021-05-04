@@ -5,8 +5,6 @@ import Mountains from '../Assets/Images/Mountains.jpg'
 function Location() {
     return (
         <div className="location">
-            <h1>Location</h1>
-            <hr id="title-hr"/>
             <section className="location__metro">
                 <img src={Denver} alt="Downtown Denver" />
                 <div>

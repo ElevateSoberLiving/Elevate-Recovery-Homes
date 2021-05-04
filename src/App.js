@@ -7,7 +7,6 @@ import Admissions from './pages/Admissions'
 import Contact from './pages/Contact'
 
 import FixedHeader from './Components/FixedHeader'
-import Hero from './Components/Hero'
 import Footer from './Components/Footer'
 import {
   BrowserRouter as Router,
@@ -21,7 +20,7 @@ function App() {
     <div className="App">
       <Router>
         <FixedHeader />
-        <Hero />
+        
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={AboutUs} />

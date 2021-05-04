@@ -11,7 +11,7 @@ function NavBar({ showMenu }) {
                     <Link className="links" to="/" >Home</Link>
                 </li>
                 <li className="links-container" >
-                    <Link className="links" to="/about">About Us</Link>
+                    <Link className="links" >About Us</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/about/elevate-recovery-homes">Elevate Recovery Homes</Link></li>
                         <li ><Link className="links sublinks" to="/about/our-team">Our Team</Link></li>
@@ -21,7 +21,7 @@ function NavBar({ showMenu }) {
                     <Link className="links" to="/location">Location</Link>
                 </li>
                 <li className="links-container">
-                    <Link className="links" to="/program">Program</Link>
+                    <Link className="links" >Program</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/program/why-us">Why Us</Link></li>
                         <li ><Link className="links sublinks" to="/program/what-to-expect">What To Expect</Link></li>
@@ -30,7 +30,7 @@ function NavBar({ showMenu }) {
                     </SubMenu>
                 </li>
                 <li className="links-container">
-                    <Link className="links" to="/admissions">Admissions</Link>
+                    <Link className="links" >Admissions</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/admissions/facilities">Our Facilities</Link></li>
                         <li ><Link className="links sublinks" to="/admissions/tufts-home">Tufts Home</Link></li>
