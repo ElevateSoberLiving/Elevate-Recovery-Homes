@@ -1,5 +1,5 @@
 .program{
-
+    margin-top: 22vh;
 
     &__why-us{
         &--choose{
@@ -36,7 +36,7 @@
         &--pillars{
             display: flex;
             justify-content: space-evenly;
-            margin: 3rem 0;
+            margin: 3rem 0 0;
 
             &--cards{
                 box-shadow: 0 0 6px hsla(0, 0%, 0%, .3);
@@ -49,7 +49,7 @@
 
 
     &__what-to-expect{
-        margin: 3rem 10rem;
+        margin: 3rem 10rem 0;
 
         & h2{
             font-size: 30px;

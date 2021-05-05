@@ -4,7 +4,7 @@
     
     &  section{
         display: flex;
-        margin: 2rem 7rem 5rem;
+        margin: 2rem 7rem 0;
 
         & img{
             min-height: 20vw;
@@ -38,7 +38,7 @@
     content: '';
     position: absolute;
     left: 0;
-    top: 38%;
+    top: 25%;
     z-index: -1;
     width: 100vw;
     height: 100vh;
