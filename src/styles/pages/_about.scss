@@ -47,7 +47,7 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            margin: 3rem 5rem 0;
+            margin: 3rem 5rem 5rem;
             text-align: left;
 
             &--container{
@@ -111,7 +111,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 3rem 6rem 0;
+            margin: 3rem 6rem;
         }
         &--benefits{
             & ul{

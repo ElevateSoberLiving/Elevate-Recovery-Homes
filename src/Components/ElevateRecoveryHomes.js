@@ -6,7 +6,7 @@ function ElevateRecoveryHomes() {
         <section className="about-us__elevate-recovery-homes">
             <div className="about-us__elevate-recovery-homes--our-mission">
                 <div>
-                    <h2>- Our Mission -</h2>
+                    <h2>- OUR MISSION -</h2>
                     <h3>INDIVIDUALIZED SUPPORT THROUGH MEANINGFUL RELATIONSHIPS AND ACTION</h3>
                         <br />
                     <p>

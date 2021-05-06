@@ -1,5 +1,5 @@
 .program{
-    margin-top: 22vh;
+        margin-top: 15vh;
 
     &__why-us{
         &--choose{
@@ -36,7 +36,7 @@
         &--pillars{
             display: flex;
             justify-content: space-evenly;
-            margin: 3rem 0 0;
+            margin: 3rem 0;
 
             &--cards{
                 box-shadow: 0 0 6px hsla(0, 0%, 0%, .3);
@@ -49,7 +49,7 @@
 
 
     &__what-to-expect{
-        margin: 3rem 10rem 0;
+        margin: 3rem 10rem;
 
         & h2{
             font-size: 30px;
@@ -64,7 +64,88 @@
         
         & p{
             text-align: left;
+            margin: 0 auto;
             color: $slate-gray;
+        }
+    }
+
+    &__elevation-plan{
+        background-color: $black;
+        color: $white-smoke;
+        padding: 2rem 0 0;
+
+        & hr{
+            border-color: $yellow;
+            margin: .25rem auto .5rem;
+            width: 55%;
+        }
+
+        & h2{
+            font-size: 2rem;
+            letter-spacing: 3px;
+        }
+
+        & h3{
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+
+        & h4{
+            margin-bottom: .5rem;
+        }
+
+        &__header{
+            padding: 13rem 7rem;
+            background-color: $white-smoke;
+            color: $black;
+            position: relative;
+            clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
+            
+            & h1{
+                font-size: 30px;
+                color: $slate-gray;
+                letter-spacing: 3px;
+                margin-bottom: .5rem;
+            }
+
+            & p{
+                margin: 0 auto;
+                text-align: left;
+                max-width: 1000px;
+                text-indent: 40px;
+                margin-bottom: 1rem;
+            }
+        }
+
+        &__weekly-meetings{
+            &--header{
+
+            }
+            &--therapeutic-container{
+                margin: 2rem 7rem;
+                
+            }
+
+            &--therapeutic-list{
+                display: flex;
+                justify-content: space-between;
+                list-style-type: square;
+                
+                & div{
+                    width: 33%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                    
+
+                    & li{
+                        list-style-type: square;
+                        list-style-position: inside;
+                        text-align: left;
+                    }
+                }
+            }
         }
     }
 }
@@ -79,4 +160,15 @@
 
 #elevation-plan{
     color: $white-smoke;
+}
+
+.mountain::after{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 12.5rem);
+    width: 25rem;
+    height: .7rem;
+    background-color: $yellow;
+    clip-path: polygon(0 1vh, 40% 1vh, 43% .5vh, 44% .75vh, 47% 0, 50% 1vh, 100% 1vh, 100% 100%, 0 100%);
 }

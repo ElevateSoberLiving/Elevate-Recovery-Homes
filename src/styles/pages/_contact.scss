@@ -1,0 +1,54 @@
+.contact{
+    margin-top: 15vh;
+    height: 80vh;
+    text-align: left;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__form-container{
+        width: 50%;
+        // margin: 0 auto 8rem;
+        background-color: $white-smoke;
+        padding: 3rem;
+        border-radius: 8px;
+        box-shadow: 0 0 6px hsla(0, 0%, 0%, .4);
+
+        &--header{
+            width: 80%;
+            margin: 0 auto;
+            color: $slate-gray;
+
+            & hr{
+                border-color: $yellow;
+                width: 75%;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    
+    &__form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+
+        & input, textarea{
+            margin: 0 0 .75rem;
+        }
+    }
+}
+
+.contact::before{
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../../Assets/Images/Denver.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
