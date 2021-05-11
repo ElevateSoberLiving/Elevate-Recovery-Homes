@@ -15,7 +15,7 @@ function WhyUs() {
                 <p>
                     Elevate Recovery Homes provides a safe, supportive, and progressive approach to recovery. We believe there are many paths to the ultimate goal of lasting sobriety. Built around the four pillars: Structure, Accountability, Support, and Action, your Elevation Plan will lay the blueprint to help guide you in finding the perfect mix of intention and fulfillment for your life in recovery. Your Elevation Plan will be individualized, created alongside experts, to map out your personal journey.
                 </p>
-                <button id="why-us--elevation-plan" ><Link className="links" id="elevation-plan" to="/program/elevation-plan">Elevation plan</Link></button>
+                <button id="why-us--elevation-plan" ><Link className="links" id="elevation-plan" to="/program/elevation-plan">ELEVATION PLAN</Link></button>
 
             </div>
             <div className="program__why-us--pillars">

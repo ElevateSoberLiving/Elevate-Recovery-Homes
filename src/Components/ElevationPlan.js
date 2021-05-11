@@ -55,104 +55,104 @@ function ElevationPlan() {
 
                     </div>
                 </div>
-                <div>
+                <div className="program__elevation-plan__weekly-meetings--daily-structure--container">
                     <h3>DAILY STRUCTURE</h3>
                     <hr/>
-                    <ul>
-                        <li>
+                    <div className="program__elevation-plan__weekly-meetings--daily-structure">
+                        <div>
                             <h4>TYPE OF SUPPORT</h4>
                             <ul>
                                 <li>Daily schedule reviews and time management support</li>
                                 <li>Random job visits</li>
                                 <li>Random sobriety checks</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>MENTORSHIP/ ADVOCATES</h4>
                             <ul>
                                 <li>Individual coaching</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>MENTAL FITNESS</h4>
                             <ul>
                                 <li>Workshops</li>
                                 <li>Expert Panels</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>PHYSICAL FITNESS</h4>
                             <ul>
                                 <li>Classes</li>
                                 <li>Recreation</li>
                                 <li>Personalized training program</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>SPIRITUAL FITNESS</h4>
                             <ul>
                                 <li>Religious activities</li>
                                 <li>Meditation Classes</li>
                                 <li>Personal Coaching</li>
                             </ul>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
 
-                <div>
+                <div className="program__elevation-plan__weekly-meetings--skill-development--container">
                     <h3>SELF-ACTUALIZATION SKILL DEVELOPMENT</h3>
                     <hr/>
-                    <ul>
-                        <li>
+                    <div className="program__elevation-plan__weekly-meetings--skill-development">
+                        <div>
                             <h4>VIVIDE VISION</h4>
                             <ul>
                                 <li>Goal Setting Development</li>
                                 <li>Visualization Workshops</li>
                                 <li>Keynote groups (Mike Dent)</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>FAMLIY GOALS</h4>
                             <ul>
                                 <li>Relationship building</li>
                                 <li>Group Activities</li>
                                 <li>Family Therapy</li>
                             </ul>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
 
-                <div>
+                <div className="program__elevation-plan__weekly-meetings--habit-development--container">
                     <h3>ACTION/HABIT SKILL DEVELOPMENT</h3>
                     <hr/>
-                    <ul>
-                        <li>
+                    <div className="program__elevation-plan__weekly-meetings--habit-development">
+                        <div>
                             <h4>EDUCATION GOALS</h4>
                             <ul>
                                 <li>Completing college or vocational training applications</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>EMPLOYMENT GOALS</h4>
                             <ul>
                                 <li>Employment coaching including resume development and interview preparation</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>EMPLOYMENT NEEDS</h4>
                             <ul>
                                 <li>Support/Reference Letters</li>
                                 <li>Networking functions</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>FINANCIAL OBLIGATIONS</h4>
                             <ul>
                                 <li>Personal budget development</li>
                                 <li>Securing car insurance</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>FINANCIAL GOALS</h4>
                             <ul>
                                 <li>Financial management review and oversight</li>
@@ -161,28 +161,28 @@ function ElevationPlan() {
                                 <li>Resolving outstanding credit or billing issues</li>
                                 <li>Financial responsibility tasks such as taxes, identification, insurance, and credit monitoring</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>LIFE SKILLS</h4>
                             <ul>
                                 <li>Workshops (gardening, woodworking, trade skills, expert panels, etc.)</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>HEALTHCARE SUPPORT</h4>
                             <ul>
                                 <li>Completing medical insurance paperwork</li>
                                 <li>Coordination of medical, dental, therapy, and psychiatric services</li>
                             </ul>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <h4>TRANSITIONAL SUPPORT</h4>
                             <ul>
                                 <li>Transitional living planning</li>
                                 <li>Identifying and securing appropriate next-step living arrangements</li>
                             </ul>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
