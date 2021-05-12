@@ -8,37 +8,37 @@ function NavBar({ showMenu }) {
             
             <ul className="navbar__menu">
                 <li >
-                    <Link className="links" to="/" >Home</Link>
+                    <Link className="links" to="/" >HOME</Link>
                 </li>
                 <li className="links-container" >
-                    <Link className="links" >About Us</Link>
+                    <Link className="links" >ABOUT US</Link>
                     <SubMenu>
-                        <li ><Link className="links sublinks" to="/about/elevate-recovery-homes">Elevate Recovery Homes</Link></li>
-                        <li ><Link className="links sublinks" to="/about/our-team">Our Team</Link></li>
+                        <li ><Link className="links sublinks" to="/about/elevate-recovery-homes">ELEVATE RECOVERY HOMES</Link></li>
+                        <li ><Link className="links sublinks" to="/about/our-team">OUR TEAM</Link></li>
                     </SubMenu>
                 </li>
                 <li >
-                    <Link className="links" to="/location">Location</Link>
+                    <Link className="links" to="/location">LOCATION</Link>
                 </li>
                 <li className="links-container">
-                    <Link className="links" >Program</Link>
+                    <Link className="links" >SERVICES</Link>
                     <SubMenu>
-                        <li ><Link className="links sublinks" to="/program/why-us">Why Us</Link></li>
-                        <li ><Link className="links sublinks" to="/program/what-to-expect">What To Expect</Link></li>
-                        <li ><Link className="links sublinks" to="/program/elevation-plan">Elevation Plan</Link></li>
-                        <li ><Link className="links sublinks" to="/program/vocational-training">Vocational Training</Link></li>
+                        <li ><Link className="links sublinks" to="/program/why-us">WHY US</Link></li>
+                        <li ><Link className="links sublinks" to="/program/what-to-expect">WHAT TO EXPECT</Link></li>
+                        <li ><Link className="links sublinks" to="/program/elevation-plan">ELEVATION PLAN</Link></li>
+                        <li ><Link className="links sublinks" to="/program/vocational-training">VOCATIONAL TRAINING</Link></li>
                     </SubMenu>
                 </li>
                 <li className="links-container">
-                    <Link className="links" >Admissions</Link>
+                    <Link className="links" >ADMISSIONS</Link>
                     <SubMenu>
-                        <li ><Link className="links sublinks" to="/admissions/facilities">Our Facilities</Link></li>
-                        <li ><Link className="links sublinks" to="/admissions/tufts-home">Tufts Home</Link></li>
-                        <li ><Link className="links sublinks" to="/admissions/admission-info">Admissions Info</Link></li>
+                        <li ><Link className="links sublinks" to="/admissions/community">OUR COMMUNITY</Link></li>
+                        <li ><Link className="links sublinks" to="/admissions/tufts-home">TUFTS HOME</Link></li>
+                        <li ><Link className="links sublinks" to="/admissions/admission-info">ADMISSIONS INFO</Link></li>
                     </SubMenu>
                 </li>
                 <li >
-                    <Link className="links" to="/contact">Contact</Link>
+                    <Link className="links" to="/contact">CONTACT</Link>
                 </li>
             </ul>
         </nav>

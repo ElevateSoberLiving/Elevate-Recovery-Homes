@@ -1,5 +1,6 @@
 import React from 'react'
 import ProfessStock from '../Assets/Images/Stock-Professional.jpg'
+import Signature from '../Assets/Images/Bryce-Givens-Sig.jpeg'
 
 function OurTeam() {
     return (
@@ -12,7 +13,7 @@ function OurTeam() {
                 </div>
                 <div className="about-us__our-team__team--staff">
                     <h2>OUR STAFF</h2>
-                    <hr/>
+                    <hr />
                     <p>
                         <span>Bryce Givens - CEO</span>
                         <br />Bryce’s approach to treatment and recovery is simple.  Offer men the guidance, insight, and compassion they need, and watch them grow.  His personal journey through addiction and into a life of fullness in sobriety acts as a beacon of light to men from all walks of life.  As program administrator and head of operations oversight, Bryce ensures that all of our members are getting the treatment and tools to overcome addiction and excel in every area of life.
@@ -40,6 +41,9 @@ function OurTeam() {
                         <br />
                     </p>
                     <h4 id="signature">Best, Bryce Givens</h4>
+                    <div id="signature-container">
+                        <img id="signature-img" src={Signature} alt="Bryce Givens Signature" />
+                    </div>
                 </div>
                 <img src={ProfessStock} alt="Welcoming owner at coffee bar" id="letter-img" />
             </div>
