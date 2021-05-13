@@ -283,6 +283,9 @@
                 text-align: left;
             }
             
+            &--desc{
+                margin: 0 2rem 0 0;
+            }
         }
         
         &--employment{
@@ -297,6 +300,14 @@
                 display: flex;
                 justify-content: space-evenly;
                 margin: 4rem auto 3rem;
+
+                &--desc{
+                    margin: 0 0 0 2rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // align-items: center;
+                }
             }
         }
     }

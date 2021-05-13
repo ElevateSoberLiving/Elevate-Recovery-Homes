@@ -64,6 +64,7 @@ function ElevateRecoveryHomes() {
                         Elevate Recovery Homes(Elevate) provides comprehensive post - treatment care to men who suffer from substance use disorder(SUD).Our philosophy is to provide daily Structure, personal Accountability, community Support, and a plan of Action.Our Recovery Homes are staffed with dedicated House Managers, a Certified Addiction Counselor(CACIII), and Peer Recovery Coach.
                     </p>
                 </div>
+                <hr/>
                 <div className="about-us__elevate-recovery-homes--benefits">
                     <h2>BENEFITS</h2>
                     <ul >

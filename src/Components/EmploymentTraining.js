@@ -6,12 +6,12 @@ function EmploymentTraining() {
     return (
         <section className="program__vocational-training">
             <div className="program__vocational-training--training">
-                <div>
+                <div className="program__vocational-training--training--desc">
                     <h2>CAREER AND VOCATIONAL TRAINING</h2>
                     <hr />
                     <p>At Elevate, our mission is to support members in creating a life of purpose and value. As our members work toward attaining autonomy, independence, and personal fulfillment, we encourage them to find meaningful work and career goals that support this endeavor. Knowing who you are, what you’re good at, what excites you, and “how you do you” is vital to that process.</p>
                     <p>We utilize a Career Explorer Aptitude and Assessment test to help individuals identify career paths based on interests, abilities, and personality. Throughout the process, our staff provides members with one-on-one mentoring, attention to detail, and a layer of accountability that helps build momentum and keep goals in focus.</p>
-                    <h4>Online Testing and Analysis Provides Information Members Need to:</h4>
+                    <h4>ONLINE TESTING AND ANALYSIS PROVIDES INFORMATION MEMEBERS NEED TO:</h4>
                     <ul>
                         <li>Identify Personal Abilities, Interests, Values, Motivators & Exceptionalities</li>
                         <li>Identify Learning Styles, Work Styles, Strengths, and Deficits</li>
@@ -25,7 +25,7 @@ function EmploymentTraining() {
             </div>
 
             <div className="program__vocational-training--employment">
-                <div>
+                <div >
                     <h2>EMPLOYMENT</h2>
                     <hr />
                     <p>While at Elevate Recovery, all members are required to secure employment. Significant time and resources are devoted to this pursuit. It is our philosophy that work is one of the most therapeutic tools for adult men. Oftentimes our members lack self-confidence in their abilities, have little to no work experience, and are naïve about the value of money and what the cost of living really entails. Most of our members have been supported and even enabled throughout their life by well-meaning family members and haven’t learned how to set up a bank account, pay bills, create a budget, or save for a future goal. We believe that a healthy understanding and appreciation for money is an important demonstration of maturity, gratitude, and responsibility. Throughout their stay at Elevate, financial literacy lessons and challenges are presented to members to instill a healthy relationship with money. At times, we will ask families to refrain from making purchases on behalf of their members to allow for this.</p>
@@ -34,8 +34,8 @@ function EmploymentTraining() {
                 </div>
                 <div className="program__vocational-training--employment--lower">
                     <img src={Working} alt="Working on computer" />
-                    <div>
-                        <h4>Lessons through employment:</h4>
+                    <div className="program__vocational-training--employment--lower--desc">
+                        <h4>LESSONS THROUGH EMPLOYMENT:</h4>
                         <ul>
                             <li>An understanding of exactly what it costs to live independently</li>
                             <li>What it takes to secure and sustain a good job</li>
