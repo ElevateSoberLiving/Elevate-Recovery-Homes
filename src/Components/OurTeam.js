@@ -1,10 +1,12 @@
 import React from 'react'
 import ProfessStock from '../Assets/Images/Stock-Professional.jpg'
 import Signature from '../Assets/Images/Bryce-Givens-Sig.jpeg'
-
+import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
+import LogoBlack from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Horizontal_Color_RGB@2x.png'
 function OurTeam() {
     return (
         <section className="about-us__our-team">
+            <img  id="background-logo" alt="Elevate Recovery Home Logo" src={LogoBlack}/>
             <div className="about-us__our-team__team">
                 <div className="about-us__our-team__team--desc">
                     <h2>OUR TEAM</h2>

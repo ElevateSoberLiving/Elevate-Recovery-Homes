@@ -113,19 +113,20 @@
             align-items: center;
             margin: 3rem 6rem;
             & hr{
-                width: 50%;
-                border-color: black;
+                width: 8%;
+                border-color: $slate-gray;
                 margin: 2.2rem 0 2rem;
             }
         }
         &--benefits{
 
             & ul{
-                margin: 1rem 0 3rem;
+                margin: 1rem 0 3rem 3rem;
                 list-style-type: square;
                 list-style: inside $yellow;
                 columns: 2;
-                column-gap: 5rem;
+                column-gap: 7rem;
+                text-align: left;
 
                 & li{
                     margin: .5rem 0;
@@ -172,4 +173,12 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
+}
+
+#background-logo{
+    position: absolute;
+    top: -7vh;
+    height: 50vh;
+    left: 0;
+    z-index:0;
 }
