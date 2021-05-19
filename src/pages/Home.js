@@ -23,7 +23,7 @@ function Home() {
                 <h2>Some Header second</h2>
                 <hr id="second-break" />
                 <p>Our philosophy here at Elevate is just that to Elevate. Elevate ourselves mind, body and spirit. We take a modern approach, believing that there are a thousand paths to the place of lasting recovery. Everyone's journey is unique and special. We just guild you with the four pillars of our program: structure, accountability, support and action. You choose the path that best fits your recovery.</p>
-                <Link to="/about-us">About us philosophy</Link>
+                <Link className="links sublinks" to="/about/elevate-recovery-homes">About us philosophy</Link>
             </section>
             <section className="home__third">
                 <EmbedVideo />
