@@ -38,7 +38,7 @@
                 display: flex;
                 justify-content: space-evenly;
                 flex-wrap: wrap;
-                margin: 1rem 0 3rem;
+                margin: 1rem 0 10rem;
 
                 & div {
                     width: 20%;
@@ -56,9 +56,9 @@
             &--pillars:after{
                 content: '';
                 position: absolute;
-                top: -5vh;
+                top: 20vh;
                 width: 100%;
-                height: 75vh;
+                height: 90vh;
                 background-color: $slate-gray;
                 clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
                 z-index: -1;

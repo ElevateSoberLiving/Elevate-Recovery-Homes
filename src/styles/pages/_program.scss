@@ -127,12 +127,15 @@
             color: $black;
             position: relative;
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
-            
+            &--container{
+                position: relative;
+            }
+
             & h1{
                 font-size: 30px;
                 color: $slate-gray;
                 letter-spacing: 3px;
-                margin-bottom: .5rem;
+                margin-bottom: 1rem;
             }
 
             & p{
@@ -219,9 +222,14 @@
         margin: 10rem auto;
 
         & hr{
-            border-color: $slate-gray;
-            width: 60%;
-            margin: 0 auto;
+            border-color: $yellow;
+            width: 50%;
+            margin: 0 auto .5rem;
+        }
+
+        & h4{
+            margin-top: 1rem;
+            color: $slate-gray;
         }
 
         & li{
@@ -239,6 +247,11 @@
             display: flex;
             align-items: center;
 
+            & h2{
+                color: $slate-gray;
+                margin-bottom: .5rem;
+            }
+            
             & p{
                 text-indent: 40px;
                 text-align: left;
@@ -253,10 +266,23 @@
             // display: flex;
             // align-items: center;
             margin: 10rem 0 0 ;
+            & h1{
+                font-size: 30px;
+                color: $slate-gray;
+                letter-spacing: 3px;
+                margin-bottom: 1rem;
+            }
+            
+            &--container{
+                position: relative;
+            }
+            
             & p{
                 text-indent: 40px;
                 text-align: left;
             }
+            
+        
             &--lower{
                 display: flex;
                 justify-content: space-evenly;
@@ -289,7 +315,7 @@
 .mountain::after{
     content: '';
     position: absolute;
-    top: 40%;
+    top: 2.5rem;
     left: calc(50% - 12.5rem);
     width: 25rem;
     height: .7rem;

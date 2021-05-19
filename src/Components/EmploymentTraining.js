@@ -25,8 +25,8 @@ function EmploymentTraining() {
             </div>
 
             <div className="program__vocational-training--employment">
-                <div >
-                    <h2>EMPLOYMENT</h2>
+                <div className="program__vocational-training--employment--container">
+                    <h1>EMPLOYMENT</h1>
                     <div className="mountain"></div>
                     <p>While at Elevate Recovery, all members are required to secure employment. Significant time and resources are devoted to this pursuit. It is our philosophy that work is one of the most therapeutic tools for adult men. Oftentimes our members lack self-confidence in their abilities, have little to no work experience, and are naïve about the value of money and what the cost of living really entails. Most of our members have been supported and even enabled throughout their life by well-meaning family members and haven’t learned how to set up a bank account, pay bills, create a budget, or save for a future goal. We believe that a healthy understanding and appreciation for money is an important demonstration of maturity, gratitude, and responsibility. Throughout their stay at Elevate, financial literacy lessons and challenges are presented to members to instill a healthy relationship with money. At times, we will ask families to refrain from making purchases on behalf of their members to allow for this.</p>
                     <br/>

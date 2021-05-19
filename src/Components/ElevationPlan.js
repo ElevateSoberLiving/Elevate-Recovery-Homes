@@ -5,15 +5,18 @@ function ElevationPlan() {
     return (
         <section className="program__elevation-plan">
             <div className="program__elevation-plan__header">
-                <h1>ELEVATION PLAN</h1>
-                <div className="mountain"></div>
-                <p>
-                    Elevate Recovery Homes Elevation Plan involves preparing members for success over the long term and assisting members with developing life skills including financial planning and accountability development. Our staff also help with job skills including resume building, interviewing, workplace behavior, and career selection.
+                <div className="program__elevation-plan__header--container">
+                    <h1>ELEVATION PLAN</h1>
+                    <div className="mountain"></div>
+                    <p>
+                        Elevate Recovery Homes Elevation Plan involves preparing members for success over the long term and assisting members with developing life skills including financial planning and accountability development. Our staff also help with job skills including resume building, interviewing, workplace behavior, and career selection.
                 </p>
 
-                <p>
-                    Community as a method is a practice we utilize to create accountability. House staff and peers make sure members are attending their meetings, communicating with their sponsors and therapists, and are generally thriving within the program.
+                    <p>
+                        Community as a method is a practice we utilize to create accountability. House staff and peers make sure members are attending their meetings, communicating with their sponsors and therapists, and are generally thriving within the program.
                 </p>
+
+                </div>
             </div>
             <div className="program__elevation-plan__weekly-meetings">
                 <div className="program__elevation-plan__weekly-meetings--header">
@@ -78,14 +81,14 @@ function ElevationPlan() {
                     <hr />
                     <div className="program__elevation-plan__weekly-meetings--skill-development">
                         <Collapsible header={'VIVIDE VISION'} >
-                                <li>Goal Setting Development</li>
-                                <li>Visualization Workshops</li>
-                                <li>Keynote groups (Mike Dent)</li>
+                            <li>Goal Setting Development</li>
+                            <li>Visualization Workshops</li>
+                            <li>Keynote groups (Mike Dent)</li>
                         </Collapsible>
                         <Collapsible header={'FAMLIY GOALS'} >
-                                <li>Relationship building</li>
-                                <li>Group Activities</li>
-                                <li>Family Therapy</li>
+                            <li>Relationship building</li>
+                            <li>Group Activities</li>
+                            <li>Family Therapy</li>
                         </Collapsible>
                     </div>
                 </div>
