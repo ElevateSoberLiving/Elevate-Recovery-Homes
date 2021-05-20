@@ -120,6 +120,33 @@
             row-gap: 15px;
         }
     }
+
+    &__info{
+        margin: 25vh auto;
+        width: 80%;
+
+        & hr{
+            width: 30%;
+            border-color: $yellow;
+            margin: 0 auto;
+        }
+
+        & li{
+            list-style-type: square;
+            list-style-position: inside;
+            text-align: left;
+            margin-top: .25rem;
+        }
+
+        &__rules-expectations-container{
+            display: flex;
+            justify-content: space-between;
+
+            & div{
+                width: 48%;
+            }
+        }
+    }
 }
 
 #stock-img1{
@@ -147,4 +174,19 @@
     left: 25vw;
     z-index: 0;
     opacity: .3;
+}
+
+#main-head{
+    @include header-style;
+    position: relative;
+    left: -35px;
+}
+
+#second-head{
+    position: relative;
+    left: 130px;
+    color: $slate-gray;
+    @include header-style;
+    font-size: 20px;
+    margin-bottom: 2rem;
 }
