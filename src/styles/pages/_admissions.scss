@@ -11,8 +11,7 @@
             margin: 10rem auto 18rem;
             
             & h2{
-                font-size: 1.85rem;
-                letter-spacing: 2px;
+                @include header-style;
             }
             
             & p {
@@ -131,11 +130,33 @@
             margin: 0 auto;
         }
 
+        & > p{
+            text-indent: 30px;
+            width: 85ch;
+            text-align: left;
+            margin: 0 auto;
+        }
+
         & li{
             list-style-type: square;
             list-style-position: inside;
             text-align: left;
             margin-top: .25rem;
+        }
+
+        &--expectations-head{
+            margin: 10rem auto 3rem;
+            width: 75ch;
+
+            & h3{
+                @include header-style;
+                color: $slate-gray;
+            }
+
+            & hr{
+                color: $yellow;
+                width: 50%;
+            }
         }
 
         &__rules-expectations-container{
@@ -170,10 +191,10 @@
 }
 #community-logo{
     position: absolute;
-    top: 9vh;
-    left: 25vw;
+    top: 22vh;
+    left: 22vw;
     z-index: 0;
-    opacity: .3;
+    opacity: .1;
 }
 
 #main-head{
@@ -189,4 +210,12 @@
     @include header-style;
     font-size: 20px;
     margin-bottom: 2rem;
+}
+
+#admissions-logo{
+    position: absolute;
+    top: 1vh;
+    left: calc(28%);
+    opacity: .1;
+    z-index: -1;
 }

@@ -9,7 +9,7 @@
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
 
             & h2{
-                font-size: 30px;
+                font-size: 35px;
                 color: $slate-gray;
                 letter-spacing: 3px;
             }
@@ -21,7 +21,7 @@
             }
             
             & h5{
-                font-size: 1rem;
+                font-size: 1.2rem;
                 color: $slate-gray;
                 letter-spacing: 3px;
                 margin-bottom: 1rem;
@@ -45,13 +45,17 @@
         &--pillars{
             display: flex;
             justify-content: space-evenly;
-            margin: 3rem 0;
+            margin: 3rem 0 5rem;
 
             &--cards{
                 box-shadow: 0 0 6px hsla(0, 0%, 0%, .3);
                 border-radius: 6px;
                 margin: 2rem;
                 padding: 1rem;
+            }
+
+            &--cards:hover{
+                transform: scale(1.2) rotate(5deg);
             }
         }
     }

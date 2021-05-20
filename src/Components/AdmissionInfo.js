@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
 
 function AdmissionInfo() {
     return (
@@ -7,10 +8,14 @@ function AdmissionInfo() {
             <hr />
             <h2 id="second-head">TO HELP YOU GET STARTED...</h2>
             <p>The ideal Elevate Recovery member is a man who is currently substance-free and ready to take charge of his life! We look for members who still need some structure and accountability but can also handle the freedoms and temptations of semi-independent living in a large and complex city. We are not in a remote location and everything the world has to offer is practically in our backyard or within a few hours. Combined with our intentional program design, our environment provides the right combination of challenge, support, independence, privacy, responsibility, and accountability.</p>
+            <br/>
             <p>All incoming members must have some sobriety under their belt either from primary treatment, detox, or other intervention. We understand if you’ve had one relapse or many, we understand if you are still contemplating how to live abstinent, and we understand if you aren’t familiar or yet comfortable with the early stages of sobriety.  While you are with us, we can work through all of those pieces together and help you elevate through the necessary steps toward absitance.</p>
+            <br/>
             <p>We do, however, require that you be substance-free upon arrival at Elevate. We also ask that you arrive open to trying new things (even if it’s a little uncomfortable) and be open to challenging yourself and your current beliefs and thinking.</p>
-            <div>
+            <img src={Logo} id="admissions-logo" alt="Elevate Home Recovery" />
+            <div className="admissions__info--expectations-head">
                 <h3>HOUSE RULES AND EXPECTATIONS</h3>
+                <hr/>
                 <p>At Elevate Recovery Homes, unity and collective recovery are our goals. Below are the house rules and expectations that our members must abide by to facilitate a safe, clean and healthy living environment.</p>
             </div>
             <div className="admissions__info__rules-expectations-container">
