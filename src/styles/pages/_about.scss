@@ -12,7 +12,7 @@
         
         &__team{
             text-align: left;
-            margin: 2rem 0 5rem;
+            margin: 15rem 0 5rem;
             background-color: $slate-gray;
             color: $white-smoke;
             padding: 10rem 9rem;
@@ -177,8 +177,9 @@
 
 #background-logo{
     position: absolute;
-    top: -7vh;
-    height: 50vh;
-    left: 0;
-    z-index:0;
+    top: -29vh;
+    height: 111vh;
+    left: 15vw;
+    opacity: .1;
+    z-index: 0;
 }
