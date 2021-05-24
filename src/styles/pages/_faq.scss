@@ -1,0 +1,78 @@
+.faq{
+    margin: 23vh auto 10vh;
+    max-width: 1200px;
+    &__header{
+        margin: 0 auto 4rem;
+        width: fit-content;
+
+        & h2, h3{
+            @include header-style;
+            text-align: left;
+            width: auto;
+        }
+
+        & h2{
+            color: $slate-gray;
+            font-size: 3rem;
+            margin-left: 1rem;
+        }
+
+        & hr{
+            width: 75%;
+            margin: 0 auto;
+            border-color: $slate-gray;
+        }
+
+        & div{
+            width: fit-content;
+            margin: .5rem auto 0 3rem;
+        }
+    }
+
+    &__question-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0 1rem;
+    }
+
+    &__question{
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    &__answer-container{
+        background-color: hsla(0, 0%, 25%, .3);
+        padding: 5%;
+        width: 90%;
+        border-radius: 0 0 10px 10px;
+        text-align: left;
+        color: $white-smoke;
+    }
+    &__answer{
+        font-size: 1.2rem;
+    }
+}
+
+#faq-button{
+    display: block;
+    text-decoration: none;
+    border-top: solid 1px $slate-gray;
+    border-bottom: solid 1px $slate-gray;
+    padding: 0 1rem;
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+#faq-button:link{
+    color: $slate-gray;
+}
+#faq-button:visited{
+    color: $yellow;
+}
+
+#faq-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 4px hsla(0,0%, 0%, .3);
+}

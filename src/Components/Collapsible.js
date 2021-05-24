@@ -9,7 +9,7 @@ function Collapsible({header, children}) {
     }
 
     return (
-        <div className="cards">
+        <div className="cards ele-card">
             <h4>{header}</h4>
             {
             clicked 

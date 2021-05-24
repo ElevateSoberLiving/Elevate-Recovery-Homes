@@ -1,7 +1,9 @@
 
 
 .home{
-
+    & h2{
+        @include header-style;
+    }
 
     &__first-image{
         height: 30vw;
@@ -9,6 +11,7 @@
     }
     &__first p{
         text-align: left;
+        text-indent: 30px;
         margin: .4rem 0;
     }
     &__first{
@@ -21,9 +24,9 @@
         }
 
         &--header{
-            text-align: left;
+            text-align: center;
             color: $slate-gray;
-            width: 95%;
+            width: 100%;
             margin: 1rem auto 0.25rem;
         }
     }
@@ -36,6 +39,16 @@
         color: $slate-gray;
         padding: 6rem;
         margin: 10rem 0;
+
+        & h2{
+            font-size: 2rem;
+        }
+
+        & p{
+            width: 75%;
+            margin: 0 auto;
+            font-size: 1.5rem;
+        }
     }
     
     &__second::before, &__second::after{
@@ -60,7 +73,13 @@
     }
 
     &__third{
+        
+    }
+
+    &__seventh{
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         margin-bottom: 5rem;
     }

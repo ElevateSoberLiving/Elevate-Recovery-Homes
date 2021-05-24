@@ -5,6 +5,7 @@ import Location from './pages/Location'
 import Program from './pages/Program'
 import Admissions from './pages/Admissions'
 import Contact from './pages/Contact'
+import FAQ from './pages/FAQ'
 
 import FixedHeader from './Components/FixedHeader'
 import Footer from './Components/Footer'
@@ -27,6 +28,7 @@ function App() {
           <Route path="/location" component={Location} />
           <Route path="/program" component={Program} />
           <Route path="/admissions" component={Admissions} />
+          <Route path="/faq" component={FAQ} />
           <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />

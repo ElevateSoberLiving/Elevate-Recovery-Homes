@@ -39,6 +39,9 @@ function NavBar({ showMenu, setShowMenu }) {
                     </SubMenu>
                 </li>
                 <li >
+                    <Link className="links" to="/faq" onClick={setShowMenu}>FAQ</Link>
+                </li>
+                <li >
                     <Link className="links" to="/contact" onClick={setShowMenu}>CONTACT</Link>
                 </li>
             </ul>
