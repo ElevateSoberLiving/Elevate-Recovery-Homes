@@ -10,8 +10,8 @@
         width: 55vw;
         z-index: 1;
         padding: 2rem;
-        border-radius: 10px;
         background-color: hsla(180,12%,3%, .6);
+        clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
 
         &--header{
             color: $white-smoke;

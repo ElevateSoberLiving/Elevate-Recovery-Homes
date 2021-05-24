@@ -11,7 +11,7 @@ function ContactForm() {
             <input />
             <label>Comments</label>
             <textarea />
-            <input type="submit" />
+            <input type="submit" value="Contact Us"/>
         </form>
     )
 }
