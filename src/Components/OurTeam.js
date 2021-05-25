@@ -6,7 +6,8 @@ import LogoBlack from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Horiz
 function OurTeam() {
     return (
         <section className="about-us__our-team">
-            <img  id="background-logo" alt="Elevate Recovery Home Logo" src={Logo}/>
+            <div className="about-us__our-team--top"></div>
+            {/* <img  id="background-logo" alt="Elevate Recovery Home Logo" src={Logo}/> */}
             <div className="about-us__our-team__team">
                 <div className="about-us__our-team__team--desc">
                     <h2>OUR TEAM</h2>

@@ -9,7 +9,7 @@ function Community() {
                 <hr/>
                 <p>Elevate Recovery provides a location to maximize our member’s ability to engage in a future-focused lifestyle while providing them with the comfort and safety necessary to treat the disease of addiction. In most intensive outpatient drug and alcohol rehab programs, clients visit a facility, receive treatment, and then leave. At Elevate Recovery, our members will have the option to stay at a carefully designed recovery residence and be guided through a process that keeps them engaged and immersed in a lifestyle of recovery, growth, and success throughout each stage of their program.</p>
             </div>
-            <img src={LogoBlack} id="community-logo" alt="Elevat recovery Homes" />
+            {/* <img src={LogoBlack} id="community-logo" alt="Elevat recovery Homes" /> */}
             <div className="admissions__community--body">
                 <h3>HOW WE CAN HELP</h3>
                 <hr/>

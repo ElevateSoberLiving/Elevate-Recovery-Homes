@@ -15,9 +15,6 @@ function Home() {
                     <img className="home__first--logo" src={Logo} alt="Elevate Recovery Logo" />
                     <h2 className="home__first--header" >DENVER’S PREMIER TRANSITIONAL LIVING COMMUNITY FOR ADULT MEN</h2>
                     <p>Elevate Recovery Homes is a transitional community for adult men who have struggled with substance use and addiction and who have completed primary treatment, are currently in IOP, recently released from detox, or participated in other interventions.<br/><br/> Our typical member is looking for a supportive environment to strengthen their recovery, prevent relapse and integrate newly acquired skills into everyday life.<br/><br/> We provide a safe, supportive, and structured environment focused on helping members develop the independent living skills necessary to transition into a healthier lifestyle successfully. We know that the needs of adult men are unique, so we have developed our community specifically to meet those needs.</p>
-                    {/* <p>Obstacles to achieving and maintaining sobriety are numerous. One of them is finding the right place to bridge the gap between inpatient treatment and independent living. Even if you have not been in residential treatment, the first weeks of living on your own can be intimidating and treacherous.</p>
-                    <p>Many circumstances and living situations are less than ideal for someone in the process of changing their entire life.</p>
-                    <p>At Elevate, we provide a safe, supportive, and structured environment for men to thrive while they continue to get to know their true selves and create new meaningful lives.</p> */}
                 </div>
             </section>
             <section className="home__second">
