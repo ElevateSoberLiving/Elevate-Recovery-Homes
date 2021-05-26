@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
-import FoggyMountains from '../Assets/Images/Foggy-Mountains.jpg'
+import Mountains from '../Assets/Images/MountainLine.jpg'
+import LookingComputer from '../Assets/Images/Looking-at-Computer.jpg'
 import Hiking from '../Assets/Images/Guy-Hiking.jpg'
 import Group3 from '../Assets/Images/Stock-Group3.jpg'
 import EmbedVideo from '../Components/EmbedVideo'
@@ -27,36 +28,49 @@ function Home() {
                 <Link className="" to="/about/elevate-recovery-homes">About us philosophy</Link>
             </section>
             <section className="home__third">
-                <img src={FoggyMountains} id="mountains" alt="Rocky Mountains with peaks higher than clouds"/>
-                <div>
+                <img src={Mountains} id="mountains" alt="Rocky Mountains with peaks higher than clouds" />
+                <div className="home__third--head">
                     <h2>WHY CHOOSE US</h2>
+                    <hr />
                     <p><b>“IF YOU DON’T KNOW WHERE YOU’RE GOING, ANY ROAD WILL TAKE YOU THERE”</b></p>
                     <Link to="/program/why-us">OUR TEAM</Link>
                 </div>
             </section>
             <section className="home__fourth">
-                <div>
+                <div className="home__fourth--head">
                     <h2>LOCATION</h2>
+                    <hr />
                     <p>Elevate is located just minutes from Denver’s beautiful Front Range in Englewood—an ideal neighborhood for men looking for a fresh start.</p>
                     <Link to="/location">LOCATION</Link>
                 </div>
-                <img src={Hiking} id="hiking" alt="Guy hiking in mountains"/>
+                <img src={Hiking} id="hiking" alt="Guy hiking in mountains" />
             </section>
             <section className="home__fifth">
-                <h2>THE TEAM</h2>
-                <p>We believe in individualized support through meaningful relationships. With mentorship, peer-to-peer connections, and available clinical support, we help members set goals and achieve them.</p>
-                <Link to="/program/why-us">OUR TEAM</Link>
+                <img src={LookingComputer} id="looking-computer" alt="two guys looking at computer" />
+                <div className="home__fifth--head" >
+                    <h2>THE TEAM</h2>
+                    <p>We believe in individualized support through meaningful relationships. With mentorship, peer-to-peer connections, and available clinical support, we help members set goals and achieve them.</p>
+                    <Link to="/program/why-us">OUR TEAM</Link>
+                </div>
             </section>
             <section className="home__sixth">
-                <h2>FROM ADDICTION TO SELF-RELIANCE</h2>
-                <p>Elevate Recovery Homes is a transitional community for adult men ready to create a sober life. The community is based on the model used by Founder Bryce Givens during his journey from addiction to recovery. The foundation of the community focuses on mentorship, community as a method, peer-to-peer accountability, and commitment towards achieving one’s goals.</p>
-                <p><b>“It is much easier to change how you think by changing your behavior than it is to change your behavior by changing how you think. Act out the change you seek.”</b></p>
-                <Link to="/program/why-us">A Letter From Bryce</Link>
+                <div className="home__sixth--main" >
+                    <h2>FROM ADDICTION TO SELF-RELIANCE</h2>
+                    <hr />
+                    <p>Elevate Recovery Homes is a transitional community for adult men ready to create a sober life. The community is based on the model used by Founder Bryce Givens during his journey from addiction to recovery. The foundation of the community focuses on mentorship, community as a method, peer-to-peer accountability, and commitment towards achieving one’s goals.</p>
+
+                    <p><br /><b>“It is much easier to change how you think by changing your behavior than it is to change your behavior by changing how you think. Act out the change you seek.”</b></p>
+                    <Link to="/program/why-us">A Letter From Bryce</Link>
+
+                </div>
             </section>
             <section className="home__seventh">
-                <h2>THE HOUSE</h2>
+                <div className="home__seventh--head">
+                    <h2>THE HOUSE</h2>
+                    <Link to="/admissions/tufts-home">More About Tufts Home</Link>
+
+                </div>
                 <EmbedVideo />
-                <Link to="/admissions/tufts-home">More About Tufts Home</Link>
             </section>
             <section className="home__eighth">
                 <h2>GET IN TOUCH</h2>
