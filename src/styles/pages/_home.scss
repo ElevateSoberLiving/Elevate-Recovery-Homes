@@ -5,6 +5,26 @@
         @include header-style;
     }
 
+    &__links{
+        border: 1px solid $yellow;
+        border-radius: 20px;
+        padding: .25rem 1.5rem;
+        margin: 1rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    &__links:link{
+        color: $black;
+    }
+    &__links:visited{
+        color: $black;
+    }
+    &__links:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 4px hsla(0, 0%, 0%, .5);
+    }
+
     &__first-image{
         height: 30vw;
         margin: 0 2rem 0 0;
@@ -219,6 +239,12 @@
         margin: 0 auto 6rem;
         width: fit-content;
 
+        & h2{
+            letter-spacing: 6px;
+            font-size: 2.5rem;
+            border-bottom: solid;
+            border-bottom-color: $yellow;
+        }
     }
 }
 
@@ -246,4 +272,33 @@
 
 #looking-computer{
     width: 40vw;
+}
+
+#philosophy-link:visited{
+    color: $white-smoke !important;
+}
+
+#philosophy-link:link{
+    color: $slate-gray !important;
+}
+
+#location-link{
+    border-color: $white-smoke;
+}
+
+#letter-link:link{
+    color: $slate-gray;
+}
+#letter-link:visited{
+    color: $slate-gray;
+
+}
+#house-link{
+    margin-left: 0;
+}
+
+#contact-arrow{
+    width: 2rem;
+    margin: 3rem;
+    animation: pulse 1000ms infinite;
 }

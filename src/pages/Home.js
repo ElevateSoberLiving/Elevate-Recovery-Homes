@@ -7,6 +7,7 @@ import Hiking from '../Assets/Images/Guy-Hiking.jpg'
 import Group3 from '../Assets/Images/Stock-Group3.jpg'
 import EmbedVideo from '../Components/EmbedVideo'
 import Hero from '../Components/Hero'
+import { FaArrowRight } from 'react-icons/fa'
 
 function Home() {
     return (
@@ -23,9 +24,8 @@ function Home() {
             <section className="home__second">
                 <h2>OUR PHILOSOPHY</h2>
                 <hr id="second-break" />
-                {/* <p>Our philosophy here at Elevate is just that to Elevate. Elevate ourselves mind, body and spirit. We take a modern approach, believing that there are a thousand paths to the place of lasting recovery. Everyone's journey is unique and special. We just guild you with the four pillars of our program: structure, accountability, support and action. You choose the path that best fits your recovery.</p> */}
                 <p>At Elevate, our philosophy is built on four essential principles for successful long-term recovery: Structure, Accountability, Support, and Action.</p>
-                <Link className="" to="/about/elevate-recovery-homes">About us philosophy</Link>
+                <Link className="home__links" id="philosophy-link" to="/about/elevate-recovery-homes">OUR PHILOSOPHY</Link>
             </section>
             <section className="home__third">
                 <img src={Mountains} id="mountains" alt="Rocky Mountains with peaks higher than clouds" />
@@ -33,7 +33,7 @@ function Home() {
                     <h2>WHY CHOOSE US</h2>
                     <hr />
                     <p><b>“IF YOU DON’T KNOW WHERE YOU’RE GOING, ANY ROAD WILL TAKE YOU THERE”</b></p>
-                    <Link to="/program/why-us">OUR TEAM</Link>
+                    <Link className="home__links" id="why-link"to="/program/why-us">OUR TEAM</Link>
                 </div>
             </section>
             <section className="home__fourth">
@@ -41,7 +41,7 @@ function Home() {
                     <h2>LOCATION</h2>
                     <hr />
                     <p>Elevate is located just minutes from Denver’s beautiful Front Range in Englewood—an ideal neighborhood for men looking for a fresh start.</p>
-                    <Link to="/location">LOCATION</Link>
+                    <Link className="home__links" id="location-link" to="/location">LOCATION</Link>
                 </div>
                 <img src={Hiking} id="hiking" alt="Guy hiking in mountains" />
             </section>
@@ -50,7 +50,7 @@ function Home() {
                 <div className="home__fifth--head" >
                     <h2>THE TEAM</h2>
                     <p>We believe in individualized support through meaningful relationships. With mentorship, peer-to-peer connections, and available clinical support, we help members set goals and achieve them.</p>
-                    <Link to="/program/why-us">OUR TEAM</Link>
+                    <Link className="home__links" id="team-link" to="/program/why-us">OUR TEAM</Link>
                 </div>
             </section>
             <section className="home__sixth">
@@ -60,21 +60,21 @@ function Home() {
                     <p>Elevate Recovery Homes is a transitional community for adult men ready to create a sober life. The community is based on the model used by Founder Bryce Givens during his journey from addiction to recovery. The foundation of the community focuses on mentorship, community as a method, peer-to-peer accountability, and commitment towards achieving one’s goals.</p>
 
                     <p><br /><b>“It is much easier to change how you think by changing your behavior than it is to change your behavior by changing how you think. Act out the change you seek.”</b></p>
-                    <Link to="/program/why-us">A Letter From Bryce</Link>
+                    <Link className="home__links" id="letter-link" to="/program/why-us">A LETTER FROM BRYCE</Link>
 
                 </div>
             </section>
             <section className="home__seventh">
                 <div className="home__seventh--head">
                     <h2>THE HOUSE</h2>
-                    <Link to="/admissions/tufts-home">More About Tufts Home</Link>
-
+                    <Link className="home__links" id="house-link" to="/admissions/tufts-home">MORE ABOUT TUFTS HOME</Link>
                 </div>
                 <EmbedVideo />
             </section>
             <section className="home__eighth">
                 <h2>GET IN TOUCH</h2>
-                <Link to="/contact">Contact</Link>
+                <FaArrowRight id="contact-arrow" />
+                <Link className="home__links" to="/contact">CONTACT US</Link>
             </section>
         </div>
     )

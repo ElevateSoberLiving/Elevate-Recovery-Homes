@@ -8,8 +8,7 @@ function Contact() {
             <div className="contact__form-parent">
                 <div className="contact__form-container">
                     <div>
-                        <h2>ARE YOU READY TO TAKE BACK CONTROL?</h2>
-                        <h2>Are you ready to take back control?</h2>
+                        <h2>ARE YOU READY TO TAKE BACK CONTROL<span>?</span></h2>
                         <p>For more information on our Sober Living Community, either call us or fill out the contact form and we will be in touch with you soon.</p>
                     </div>
                     <ContactForm />

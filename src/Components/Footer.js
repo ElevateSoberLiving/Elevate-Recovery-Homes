@@ -1,9 +1,7 @@
 import React from 'react'
 import WhiteLogo from "../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Horizontal_White01_RGB@2x.png"
 import { Link } from 'react-router-dom'
-import { FaFacebookSquare } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
-import { FaTwitterSquare } from 'react-icons/fa'
+import { FaTwitterSquare, FaInstagram, FaFacebookSquare } from 'react-icons/fa'
 
 function Footer() {
     return (
