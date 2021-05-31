@@ -7,8 +7,8 @@ function Hero() {
         <div className="hero">
             <HeroSlider />
             <div className="hero__title">
-                <h1 className="hero__title--header"></h1>
-                <p className="hero__title--body">need lines</p>
+                <h1 className="hero__title--header">FINISH THE JOURNEY YOU STARTED</h1>
+                <p className="hero__title--body">One of the best sober living facilities to help you finish this journey.</p>
                 <button className="hero__title--button"><Link to="/about/elevate-recovery-homes" >ABOUT US</Link></button>
             </div>
         </div>

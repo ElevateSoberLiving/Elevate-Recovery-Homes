@@ -26,7 +26,7 @@ function ElevateRecoveryHomes() {
                 <img src={Desert} alt="People running in desert at sundown" id="our-mission-img"/>
             </div>
             <div className="about-us__elevate-recovery-homes--philosophy">
-                <div>
+                <div className="about-us__elevate-recovery-homes--philosophy--header">
                     <h2>OUR PHILOSPHY</h2>
                     <hr />
                     <p>At Elevate Recovery, our philosophy is built on four important principles for successful long - term recovery: Structure, Accountability, Support, and Action.
