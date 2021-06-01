@@ -18,7 +18,7 @@
         z-index: 3;
         height: 100%;
         opacity: 1;
-        transition: opacity 1s ease .25s;
+        // transition: opacity 1s ease .25s;
     }
 
     &__menu{
@@ -35,10 +35,9 @@
             list-style-type: none;
             position: fixed;
             top: 15vh;
-            padding: 0 5rem 4rem;
-            margin-top: -1rem;
+            padding: 0 2rem 3rem;
             background-color: $white-smoke;
-            clip-path: polygon(0 0, 100% 0, 50% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
         }
         
         &__item{
