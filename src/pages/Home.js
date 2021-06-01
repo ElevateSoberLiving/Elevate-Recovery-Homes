@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
-import Mountains from '../Assets/Images/MountainLine.jpg'
+import Mountains from '../Assets/Images/MountainLine.png'
 import LookingComputer from '../Assets/Images/Looking-at-Computer.jpg'
 import Hiking from '../Assets/Images/Guy-Hiking.jpg'
 import Group3 from '../Assets/Images/Stock-Group3.jpg'

@@ -1,33 +1,58 @@
 .hero{
-    
+    & img{
+        // width: 100vw;
+        margin-top: 15vh;
+        height: 70vh;
+        width: 100%;
+        filter: grayscale(100%);
+    }
 
     &__title{
         color: $white-smoke;
         position: absolute;
-        top: 40vh;
-        left: calc(50vw - 27.5vw);
+        top: 27vh;
+        left: 50%;
+        transform: translatex(-50%);
         margin: 0 auto;
-        width: 55vw;
         z-index: 1;
-        padding: 3.5rem 2rem;
-        background-color: hsla(180,12%,3%, .6);
+        padding: 3.5rem 3rem;
+        // background-color: hsla(180,12%,3%, .5);
         clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
 
         &--header{
             color: $white-smoke;
+            letter-spacing: 6px;
+            font-size: 2.2rem;
+            white-space: nowrap;
+            text-shadow: -1px 0 4px hsla( 0, 0%, 0%, .5);
+
+            & span {
+                font-size: 2.9rem;
+                color: $white-smoke;
+            }
+        }
+
+        & hr{
+            width: 50%;
+            margin: .5rem auto 1rem;
+            border: solid .5px $yellow;
         }
 
         &--body{
             color: $white-smoke;
+            font-size: 1.2rem;
+            text-shadow: -1px 0 4px hsla( 0, 0%, 0%, .5);
         }
 
         &--button{
             color: $white-smoke;
-            padding: .5rem 2rem;
+            padding: .25rem 1.5rem;
             background: transparent;
             border: solid 1px $yellow;
             border-radius: 20px;
-            margin-top: 1rem;
+            margin-top: 1.5rem;
+            display: inline-block;
+            text-decoration: none;
         }
 
         &--button:hover{
@@ -57,4 +82,10 @@
             }
         }
     }
+}
+
+.foggy{
+        margin-top: 15vh;
+        height: 70vh;
+        width: 100%;
 }

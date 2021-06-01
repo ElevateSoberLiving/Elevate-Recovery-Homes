@@ -5,28 +5,29 @@
 }
 
 @mixin header-style {
-    font-size: 30px;
+    font-size: 1.9rem;
     letter-spacing: 3px;
 }
 
-// Media Query Manager
-/*
-0 - 600 - phone
-600 - 900 - tablet
-900 - 1200 -  tablet landscape
-1200 - 1800  - desktop (normal styles apply)
-1800 + - big desktop
-*/
+//  640px, 1024px, 1400px
+$breakpoints-up: ( "medium": "40em", "large": "64em", "xlarge": "87.5em");
+//  639px, 1023px, 1399px
+$breakpoints-down: ("small": "39.9375em", "medium": "63.9375em", "large": "86.9375em");
 
-/*
-breakpoint argument choices: 
-- phone
-- tab-port
-- tab-land
-- big-desktop
-*/
+@mixin breakpoint-up($size){
+    @media (min-width: map-get($breakpoint-up, $size)){
+        @content;
+    }
+}
+@mixin breakpoint-down($size){
+    @media (max-width: map-get($breakpoint-downe, $size)){
+        @content;
+    }
+}
 
-@mixin respond($breakpoint) {
+
+
+@mixin response($breakpoint) {
     @if $breakpoint == xl-desktop {
       // 2168px
     @media only screen and (max-width: 135.5em) {

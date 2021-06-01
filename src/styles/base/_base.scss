@@ -1,3 +1,4 @@
+
 *,
 *::after,
 *::before {
@@ -5,4 +6,27 @@
     padding: 0;
     box-sizing: inherit;
     
+}
+
+html {
+  // defines what 1 rem is
+  font-size: 62.5%; // 1 rem = 10px 10px/16px = 62.5%
+  // border box reset
+  box-sizing: border-box;
+
+  @include response(big-desktop) {
+  // 1rem = 12 12/16
+  font-size: 100%;
+  }
+  @include response(tab-land) {
+  // width < 1200px?
+  font-size: 75.25%; // 1rem == 9px 9/16 = 56.25%
+  }
+  @include response(tab-port) {
+  // width < 900 ?
+  font-size: 65%; // 1rem = 8px 8/16
+  }
+  @include response(phone) {
+  font-size: 45%;
+  }
 }
