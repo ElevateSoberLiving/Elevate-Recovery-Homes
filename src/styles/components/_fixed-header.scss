@@ -9,7 +9,9 @@
     justify-content: space-between;
     align-items: center;
     background: $black;
-
+    @include response(phone){
+        height: 10vh;
+    }
     &__menu{
         display: flex;
         align-items: center;

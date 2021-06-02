@@ -25,7 +25,9 @@
         height: 2.5rem;
         display: flex;
         justify-content: space-around;
-
+        @include response(phone){
+                width: 50%;
+        }
         & a{
             display: flex;
             justify-content: center;

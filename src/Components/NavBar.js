@@ -7,20 +7,20 @@ function NavBar({ showMenu, setShowMenu }) {
     return (
         <nav className={showMenu ? 'navbar active' : 'navbar' }>
             <ul className="navbar__menu">
-                <li >
+                <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" to="/" onClick={setShowMenu} >HOME</Link>
                 </li>
-                <li className="links-container" >
+                <li className={showMenu ? "links-container active" : 'links-container'} >
                     <Link className="links" >ABOUT US</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/about/elevate-recovery-homes" onClick={setShowMenu} >ELEVATE RECOVERY HOMES</Link></li>
                         <li ><Link className="links sublinks" to="/about/our-team" onClick={setShowMenu} >OUR TEAM</Link></li>
                     </SubMenu>
                 </li>
-                <li >
+                <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
                 </li>
-                <li className="links-container">
+                <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" >SERVICES</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link></li>
@@ -29,7 +29,7 @@ function NavBar({ showMenu, setShowMenu }) {
                         <li ><Link className="links sublinks" to="/program/vocational-training" onClick={setShowMenu} >VOCATIONAL TRAINING</Link></li>
                     </SubMenu>
                 </li>
-                <li className="links-container">
+                <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" >ADMISSIONS</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/admissions/community" onClick={setShowMenu} >OUR COMMUNITY</Link></li>
@@ -37,10 +37,10 @@ function NavBar({ showMenu, setShowMenu }) {
                         <li ><Link className="links sublinks" to="/admissions/admission-info" onClick={setShowMenu} >ADMISSIONS INFO</Link></li>
                     </SubMenu>
                 </li>
-                <li >
+                <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" to="/faq" onClick={setShowMenu}>FAQ</Link>
                 </li>
-                <li >
+                <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" to="/contact" onClick={setShowMenu}>CONTACT</Link>
                 </li>
             </ul>

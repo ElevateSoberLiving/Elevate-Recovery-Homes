@@ -20,13 +20,13 @@ html {
   }
   @include response(tab-land) {
   // width < 1200px?
-  font-size: 85.25%; // 1rem == 9px 9/16 = 56.25%
+  font-size: 90.25%; // 1rem == 9px 9/16 = 56.25%
   }
   @include response(tab-port) {
   // width < 900 ?
-  font-size: 75%; // 1rem = 8px 8/16
+  font-size: 85%; // 1rem = 8px 8/16
   }
   @include response(phone) {
-  font-size: 50%;
+  font-size: 55%;
   }
 }

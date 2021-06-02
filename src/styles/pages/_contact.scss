@@ -23,14 +23,12 @@
     }
 
     &__form-parent{
-        // width: 50%;
-        // margin: 0 auto 8rem;
         background-color: $white-smoke;
         padding: 3rem;
         border-radius: 8px;
         box-shadow: 0 0 6px hsla(0, 0%, 0%, .4);
         display: flex;
-        justify-content: space-evenly;
+        flex-basis: 90%;
 
         @include response(phone){
             flex-basis: 90%;
