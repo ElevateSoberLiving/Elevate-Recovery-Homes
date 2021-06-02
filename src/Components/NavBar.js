@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function NavBar({ showMenu, setShowMenu }) {
 
     return (
-        <nav className={`navbar${showMenu ? '' :  `--active`}`}>
+        <nav className={showMenu ? 'navbar active' : 'navbar' }>
             <ul className="navbar__menu">
                 <li >
                     <Link className="links" to="/" onClick={setShowMenu} >HOME</Link>

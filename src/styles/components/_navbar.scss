@@ -9,17 +9,6 @@
     opacity: 0;
     height: 100%;
     transition: opacity 1s ease .25s;
-    
-    &--active{
-        width: 45vw;
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
-        z-index: 3;
-        height: 100%;
-        opacity: 1;
-        // transition: opacity 1s ease .25s;
-    }
 
     &__menu{
         display: flex;
@@ -30,6 +19,15 @@
         list-style-type: none;
         padding: 0 2rem;
 
+        @include response(phone){
+            flex-direction: column;
+            position: fixed;
+            align-items: center;
+            padding: 10rem 0;
+            left: 0;
+            top: 0;
+    }
+
         &--submenu{
             display: none;
             list-style-type: none;
@@ -38,6 +36,13 @@
             padding: 0 2rem 3rem;
             background-color: $white-smoke;
             clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
+
+            @include response(phone){
+                display: block;
+                clip-path: none;
+                position: relative;
+                top: 0;
+            }
         }
         
         &__item{
@@ -54,13 +59,24 @@
     height: 100%;
     z-index: 3;
     clip-path: polygon(calc(0% + 10vw) 0, 100% 0, 100% 100%, 0 100%);
-
-    transform: translateX(0vw);
+    right: -100%;
     transition: all 1s ease;
-    
-    &--active{
-        transform: translateX(57vw);
-        transition: all 1s ease;
+
+    @include response(phone){
+        height: 0;
+        width: 0;
+        clip-path: none;
+    }
+
+    &.active-back{
+        right: 0;
+        transition: 350ms;
+
+        @include response(phone){
+            height: 100vh;
+            width: 100vw;
+            clip-path: none;
+        }
     }
 }
 
@@ -97,17 +113,15 @@
 
 .sublinks{
     padding: .2rem;
-    // text-decoration: none;
+}
 
-    &:link{
-        // color: white;
-        
-    }
-
-    &:hover{
-        // color: $yellow;
-    }
-    &:visited{
-        // color: white;
-    }
+.navbar.active{
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 3;
+    height: 100%;
+    opacity: 1;
+    transition: 350ms;    
 }

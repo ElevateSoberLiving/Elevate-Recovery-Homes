@@ -69,7 +69,7 @@ function Home() {
                     <h2>THE HOUSE</h2>
                     <Link className="home__links" id="house-link" to="/admissions/tufts-home">MORE ABOUT TUFTS HOME</Link>
                 </div>
-                <EmbedVideo />
+                <EmbedVideo videoId={""} />
             </section>
             <section className="home__eighth">
                 <h2>GET IN TOUCH</h2>

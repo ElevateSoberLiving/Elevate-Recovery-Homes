@@ -9,23 +9,22 @@
     letter-spacing: 3px;
 }
 
-//  640px, 1024px, 1400px
-$breakpoints-up: ( "medium": "40em", "large": "64em", "xlarge": "87.5em");
-//  639px, 1023px, 1399px
-$breakpoints-down: ("small": "39.9375em", "medium": "63.9375em", "large": "86.9375em");
+// Media Query Manager
+/*
+0 - 600 - phone
+600 - 900 - tablet
+900 - 1200 -  tablet landscape
+1200 - 1800  - desktop (normal styles apply)
+1800 + - big desktop
+*/
 
-@mixin breakpoint-up($size){
-    @media (min-width: map-get($breakpoint-up, $size)){
-        @content;
-    }
-}
-@mixin breakpoint-down($size){
-    @media (max-width: map-get($breakpoint-downe, $size)){
-        @content;
-    }
-}
-
-
+/*
+breakpoint argument choices: 
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
 
 @mixin response($breakpoint) {
     @if $breakpoint == xl-desktop {
