@@ -39,7 +39,6 @@ function Home() {
             <section className="home__fourth">
                 <div className="home__fourth--head">
                     <h2>LOCATION</h2>
-                    <hr />
                     <p>Elevate is located just minutes from Denver’s beautiful Front Range in Englewood—an ideal neighborhood for men looking for a fresh start.</p>
                     <Link className="home__links" id="location-link" to="/location">LOCATION</Link>
                 </div>

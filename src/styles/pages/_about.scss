@@ -24,6 +24,11 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             opacity: .6;
+            
+            @include response(phone){
+                margin-top: 5vh;
+            }
+            
         }
 
         &__team{
@@ -33,6 +38,10 @@
             color: $white-smoke;
             padding: 10rem 9rem;
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
+            @include response(phone){
+                margin: -10rem auto 5rem;
+                padding: 10rem 0;
+            }
             & hr{
                 border-color: $yellow;
                 width: 50%;
@@ -46,10 +55,17 @@
 
             &--desc{
                 margin-bottom: 3rem;
+                @include response(phone){
+                    width: 90%;
+                    margin: 0 auto; 
+                }
             }
 
             &--staff{
-
+                @include response(phone){
+                    width: 90%;
+                    margin: 0 auto; 
+                }
 
                 & span{
                     font-size: 20px;
@@ -65,6 +81,9 @@
             align-items: center;
             margin: 3rem 5rem 5rem;
             text-align: left;
+            @include response(phone){
+                flex-direction: column-reverse;
+            }
 
             &--container{
                 & h4{
@@ -90,6 +109,11 @@
             margin: 1rem 5rem 5rem;
             display: flex;
             justify-content: space-evenly;
+            align-items: center;
+            
+            @include response(tab-port){
+                flex-direction: column-reverse;
+            }
             
             &  p{
                 text-align: left;
@@ -102,6 +126,12 @@
             color: $white-smoke;
             padding: 12rem 9rem;
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
+            width: 100%;
+            
+            @include response(phone){
+                padding: 12rem 0;
+                margin: 0 auto;
+            }
 
             & hr{
                 border-color: $yellow;
@@ -110,22 +140,57 @@
             }
             &--header{
                 margin-bottom: 3.5rem;
+                @include response(phone){
+                    width: 90%;
+                    margin: 0 auto 3rem;
+
+                }
             }
 
             &--container{
-                display: flex;
-                justify-content: space-evenly;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 30px 20px;
+
+                @include response(tab-port){
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 90%;
+                    margin: 3rem auto 0;
+                }
+
+                &--structure{
+                    grid-area: 1 / 1;
+                }
+                &--accountability{
+                    grid-area: 2 / 2;
+                }
+                &--support{
+                    grid-area: 1 / 2;
+                }
+                &--action{
+                    grid-area: 2 / 1 ;
+                }
 
                 & div{
-                    width: 50%;
-                    margin: 1.5rem;
+                    align-self: start;
+                    justify-self: center;
 
+                    @include response(phone){
+                        width: 90%;
+                        margin: 0 auto;
+                    }
                     & p{
-                        margin-bottom: 3rem;
+                        text-align: left;
+                        text-indent: 20px;
                     }
                 }
             }
         }
+
+
 
         &--benefits-container{
             display: flex;
@@ -148,6 +213,10 @@
                 column-gap: 7rem;
                 text-align: left;
 
+                @include response(phone){
+                    columns: 1;
+                }
+
                 & li{
                     margin: .5rem 0;
                 }
@@ -155,24 +224,32 @@
         }
         &--what-we-do{
             width: 75%;
-            // margin: 0 0 2rem; 
+            @include response(phone){
+                width: 100%;
+            }
         }
     }
 }
 
-#accountability{
-    margin-top: 6.15rem;
-}
-
 #our-mission-img{
-    height: 35vw;
+    width: 48vw;
     margin-left: 1rem;
+    height: 80%;
+    @include response(tab-port){
+        width: 100%;
+        margin: 0 auto 2rem;
+    }
 }
 
 #letter-img{
-    height: 25vw;
-    margin-left: 1rem;
-    padding: 2rem;
+    width: 43vw;
+    margin-left: 2rem;
+
+    @include response(phone){
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 2rem;
+    }
 }
 
 #signature{

@@ -34,27 +34,31 @@ function ElevateRecoveryHomes() {
                     </p>
                 </div>
                 <div className="about-us__elevate-recovery-homes--philosophy--container">
-                    <div>
+                    <div className="about-us__elevate-recovery-homes--philosophy--container--structure">
                         <h4>STRUCTURE</h4>
                         <p>
                             Beginning a program of recovery after receiving treatment for substance use disorder isn’t always easy.There will be times when you may feel like giving up, when thoughts of drinking or using are especially strong, or when you might feel like a failure.Therefore, it is important to have a structured system and routine in place to keep you on the right track.Taking healthy and intentional steps to develop a sober lifestyle will ensure that you have the support you need.
                         </p>
+                    </div>
+                    <div className="about-us__elevate-recovery-homes--philosophy--container--accountability">
                         <h4 id="accountability">ACCOUNTABILITY</h4>
                         <p>
                             Accountability is one of the main things we need to live a life of health and total freedom.Having people in our lives who hold us accountable for our thoughts and actions prove to be extremely helpful and keeps our focus on the things that matter.For an individual in recovery, what is truly important is an addiction - free life.Honesty and accountability play a vital role in this process.
                         </p>
                     </div>
-                    <div>
+
+                    <div className="about-us__elevate-recovery-homes--philosophy--container--support">
                         <h4>SUPPORT</h4>
                         <p>
                             A support system is a network of people who provide an individual with practical, emotional, and spiritual support that they can rely on to stay clean and sober.Your support system or community may be composed of people from your Recovery Group, family, close friends, or a combination thereof.It’s important to know that while you can and should do a great deal on your own, a support system can make early recovery much easier.People who spend time living with other sober people after treatment are more likely to maintain their sobriety and build a strong program of recovery.
                         </p>
+                    </div>
+                    <div className="about-us__elevate-recovery-homes--philosophy--action">
                         <h4>ACTION</h4>
                         <p>
                             Active participation is mandatory in our program.We know everybody’s journey to recovery is different.The is no one size fits all approach to recovery.What works for one member may not work for another.Therefore, we take an ‘all methods’ approach to sobriety, allowing our members to find what works best for their recovery.We have found that this methodology is best suited for increasing the likelihood of success.
                         </p>
                     </div>
-
                 </div>
             </div>
             <div className="about-us__elevate-recovery-homes--benefits-container">

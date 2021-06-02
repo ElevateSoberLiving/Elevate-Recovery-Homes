@@ -1,7 +1,7 @@
 
 
 .navbar{
-    width: 45vw;
+    width: 50vw;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -17,7 +17,7 @@
         justify-content: space-between;
         align-items: center;
         list-style-type: none;
-        padding: 0 2rem;
+        padding-right: 2rem;
 
         @include response(phone){
             flex-direction: column;
@@ -33,7 +33,7 @@
             display: none;
             list-style-type: none;
             position: fixed;
-            top: 15vh;
+            top: 14.5vh;
             padding: 0 2rem 3rem;
             background-color: $white-smoke;
             clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
