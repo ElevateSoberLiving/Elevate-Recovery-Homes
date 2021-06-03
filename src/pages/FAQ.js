@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom'
 
 function FAQ() {
     const handleFaqData = () => {
-        return FAQData.map(({ q, a }) => {
+        return FAQData.map(({ q, a }, index) => {
+            a.replace(/LINK TO CONTACT US/g, '')
+            
             return (
-                <FaqCollapse question={q} >
+                <FaqCollapse question={q} key={index}>
                     {a}
                 </FaqCollapse>
             )
@@ -25,7 +27,7 @@ function FAQ() {
                 </div>
             </div>
             {handleFaqData()}
-            <h4>DIDN'T FIND AN ANSWER TO A QUESTION YOU HAVE? REACH OUT TO US, AND WE WILL GET BACK TO YOU</h4>
+            <h4>DIDN'T FIND AN ANSWER TO A QUESTION YOU HAVE? REACH OUT TO US, AND WE WILL GET BACK TO YOU <Link id="smaller-contact" to="/contact">CONTACT</Link></h4>
         </div>
     )
 }

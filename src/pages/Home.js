@@ -34,7 +34,7 @@ function Home() {
                     <h2>WHY CHOOSE US</h2>
                     <hr />
                     <p><b>“IF YOU DON’T KNOW WHERE YOU’RE GOING, ANY ROAD WILL TAKE YOU THERE”</b></p>
-                    <Link className="home__links" id="why-link"to="/program/why-us">OUR TEAM</Link>
+                    <Link className="home__links" id="why-link"to="/program/why-us">WHY US</Link>
                 </div>
             </section>
             <section className="home__fourth">
@@ -50,7 +50,7 @@ function Home() {
                 <div className="home__fifth--head" >
                     <h2>THE TEAM</h2>
                     <p>We believe in individualized support through meaningful relationships. With mentorship, peer-to-peer connections, and available clinical support, we help members set goals and achieve them.</p>
-                    <Link className="home__links" id="team-link" to="/program/why-us">OUR TEAM</Link>
+                    <Link className="home__links" id="team-link" to="/about/our-team">OUR TEAM</Link>
                 </div>
             </section>
             <section className="home__sixth">
@@ -60,7 +60,7 @@ function Home() {
                     <p>Elevate Recovery Homes is a transitional community for adult men ready to create a sober life. The community is based on the model used by Founder Bryce Givens during his journey from addiction to recovery. The foundation of the community focuses on mentorship, community as a method, peer-to-peer accountability, and commitment towards achieving one’s goals.</p>
 
                     <p><br /><b>“It is much easier to change how you think by changing your behavior than it is to change your behavior by changing how you think. Act out the change you seek.”</b></p>
-                    <Link className="home__links" id="letter-link" to="/program/why-us">A LETTER FROM BRYCE</Link>
+                    <Link className="home__links" id="letter-link" to="/about/our-team">A LETTER FROM BRYCE</Link>
 
                 </div>
             </section>

@@ -80,3 +80,34 @@
     transform: scale(1.1);
     box-shadow: 0 0 4px hsla(0,0%, 0%, .3);
 }
+
+#smaller-contact{
+    // text-decoration: none;
+    font-size: 1.5rem;
+    &:link{
+        color: $black;
+    }
+
+    &:visited{
+        color: $black;
+    }
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+#contact-in-answer{
+    // text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+    &:link{
+        color: $black;
+    }
+
+    &:visited{
+        color: $black;
+    }
+    &:hover{
+        transform: scale(1.1);
+    }
+}

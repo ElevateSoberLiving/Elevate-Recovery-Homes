@@ -102,6 +102,10 @@
 
     &__elevate-recovery-homes{
         margin-top: 25vh;
+
+        @include response(phone){
+            margin-top: 15vh;
+        }
         & h3{
             color: $slate-gray;
         }
