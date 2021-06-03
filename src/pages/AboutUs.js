@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route, Switch, useRouteMatch } from 'react-router-dom'
+import { Route, Switch, useRouteMatch } from 'react-router-dom'
 import ElevateRecoveryHomes from '../Components/ElevateRecoveryHomes'
 import OurTeam from '../Components/OurTeam'
 

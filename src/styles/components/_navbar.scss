@@ -1,7 +1,7 @@
 
 
 .navbar{
-    width: 50vw;
+    // width: 50vw;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -10,6 +10,14 @@
     height: 100%;
     display: none;
     transition: all 1s ease 500ms;
+
+    @include response(tab-land){
+        width: 75vw
+    }
+
+    @include response(tab-port-sm){
+        width: 80vw;
+    }
 
     &__menu{
         display: flex;
@@ -28,7 +36,16 @@
             left: 0;
             top: 0;
             
-    }
+        }
+        @include response(tab-port-sm){
+            flex-direction: column;
+            position: fixed;
+            align-items: center;
+            padding: 10rem 0;
+            left: 0;
+            top: 0;
+        }
+        
 
         &--submenu{
             display: none;
@@ -39,13 +56,14 @@
             background-color: $white-smoke;
             clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
 
-            @include response(phone){
+            @include response(tab-port-sm){
                 display: block;
                 clip-path: none;
                 position: relative;
                 top: 0;
                 background: transparent;
             }
+            
         }
         
         &__item{
@@ -65,17 +83,28 @@
     right: -100%;
     transition: all 1s ease;
 
-    @include response(phone){
+    @include response(tab-port-sm){
         height: 0;
         width: 0;
         clip-path: none;
+    }
+
+    @include response(tab-land){
+        width: 65vw
+    }
+
+    @include response(tab-port){
+        width: 70vw;
+    }
+    @include response(tab-port-sm){
+        width: 73vw;
     }
 
     &.active-back{
         right: 0;
         transition: 350ms;
 
-        @include response(phone){
+        @include response(tab-port-sm){
             height: 100vh;
             width: 100vw;
             top: 0;
@@ -128,7 +157,14 @@
     z-index: 3;
     height: 100%;
     opacity: 1;
-    transition: 350ms ease  500ms;    
+    transition: 350ms ease  500ms;  
+    
+    @include response(tab-land){
+        width: 50vw;
+    }
+    @include response(tab-port){
+        width: 53vw;
+    }
 }
 
 .links-container.active{

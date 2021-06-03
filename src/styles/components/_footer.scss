@@ -28,7 +28,7 @@
         @include response(phone){
                 width: 50%;
         }
-        & a{
+        & div{
             display: flex;
             justify-content: center;
             align-items: center;

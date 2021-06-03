@@ -9,9 +9,12 @@ function Footer() {
             <img className="footer__logo" src={WhiteLogo} alt="Elevate Recovery Logo" />
             <div className="footer__mid-container" >
                 <div className="footer__social">
-                    <a target="_blank" rel="noreferrer noopener"><FaFacebookSquare /></a>
+                    <div><FaFacebookSquare /></div>
+                    <div><FaInstagram /></div>
+                    <div><FaTwitterSquare /></div>
+                    {/* <a target="_blank" rel="noreferrer noopener"><FaFacebookSquare /></a>
                     <a target="_blank" rel="noreferrer noopener"><FaInstagram /></a>
-                    <a target="_blank" rel="noreferrer noopener" ><FaTwitterSquare /></a>
+                    <a target="_blank" rel="noreferrer noopener" ><FaTwitterSquare /></a> */}
                 </div>
                 <hr id="footer-break" />
                 <ul className="footer__menu">

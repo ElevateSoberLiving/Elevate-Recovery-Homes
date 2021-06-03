@@ -3,9 +3,7 @@ import SubMenu from './SubMenu'
 import { Link } from 'react-router-dom'
 
 function NavBar({ showMenu, setShowMenu }) {
-    const handleClick = () => {
-        
-    }
+    
     return (
         <nav className={showMenu ? 'navbar active' : 'navbar' }>
             <ul className="navbar__menu">
@@ -13,7 +11,7 @@ function NavBar({ showMenu, setShowMenu }) {
                     <Link className="links" to="/" onClick={setShowMenu} >HOME</Link>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'} >
-                    <Link className="links" >ABOUT US</Link>
+                    <div className="links" >ABOUT US</div>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/about/elevate-recovery-homes" onClick={setShowMenu} >ELEVATE RECOVERY HOMES</Link></li>
                         <li ><Link className="links sublinks" to="/about/our-team" onClick={setShowMenu} >OUR TEAM</Link></li>
@@ -23,7 +21,7 @@ function NavBar({ showMenu, setShowMenu }) {
                     <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <Link className="links" >SERVICES</Link>
+                    <div className="links" >SERVICES</div>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link></li>
                         <li ><Link className="links sublinks" to="/program/what-to-expect" onClick={setShowMenu} >WHAT TO EXPECT</Link></li>
@@ -32,7 +30,7 @@ function NavBar({ showMenu, setShowMenu }) {
                     </SubMenu>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <Link className="links" >ADMISSIONS</Link>
+                    <div className="links" >ADMISSIONS</div>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/admissions/community" onClick={setShowMenu} >OUR COMMUNITY</Link></li>
                         <li ><Link className="links sublinks" to="/admissions/tufts-home" onClick={setShowMenu} >TUFTS HOME</Link></li>

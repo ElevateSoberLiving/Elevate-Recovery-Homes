@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom'
 function FAQ() {
     const handleFaqData = () => {
         return FAQData.map(({ q, a }, index) => {
-            a.replace(/LINK TO CONTACT US/g, '')
-            
             return (
                 <FaqCollapse question={q} key={index}>
                     {a}

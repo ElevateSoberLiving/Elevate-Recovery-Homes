@@ -1,12 +1,10 @@
 import React from 'react'
-import HeroSlider from './HeroSlider'
 import { Link } from 'react-router-dom'
 import FoggyMountains from '../Assets/Images/FoggyMountains.png'
 
 function Hero() {
     return (
         <div className="hero">
-            {/* <HeroSlider /> */}
             <img src={FoggyMountains} alt="Mountain peaks above the clouds" />
             <div className="hero__title">
                 <h1 className="hero__title--header"><span>F</span>INISH <span>T</span>HE <span>J</span>OURNEY <span>Y</span>OU <span>S</span>TARTED</h1>
