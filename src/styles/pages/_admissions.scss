@@ -150,6 +150,7 @@
             object-fit: cover;
             @include response(phone){
                 width: 80vw;
+                object-fit: cover;
             }
         }
 
