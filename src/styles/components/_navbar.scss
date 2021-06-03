@@ -165,6 +165,9 @@
     @include response(tab-port){
         width: 53vw;
     }
+    @include response(tab-port-sm){
+        width: 0;
+    }
 }
 
 .links-container.active{
