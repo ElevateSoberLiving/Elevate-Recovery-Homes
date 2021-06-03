@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player/lazy'
-
+// [{src: videoId, type: 'video/mp4'}]
 
 function EmbedVideo({ videoId }) {
     return (
