@@ -188,6 +188,9 @@
             width: 85ch;
             text-align: left;
             margin: 0 auto;
+            @include response(phone){
+                width:90%;
+            }
         }
 
         & li{
@@ -200,6 +203,10 @@
         &--expectations-head{
             margin: 10rem auto 3rem;
             width: 75ch;
+
+            @include response(phone){
+                width: 90%;
+            }
 
             & h3{
                 @include header-style;
@@ -215,9 +222,17 @@
         &__rules-expectations-container{
             display: flex;
             justify-content: space-between;
+            @include response(phone){
+                flex-direction: column;
+                align-items: center;
+            }
 
             & div{
                 width: 48%;
+                @include response(phone){
+                    width: 90%;
+                    margin-bottom: 3rem;
+                }
             }
         }
     }
@@ -290,6 +305,10 @@
     @include header-style;
     position: relative;
     left: -35px;
+    @include response(phone){
+        left: 0;
+        font-size: 2.1rem;
+    }
 }
 
 #second-head{
@@ -299,12 +318,22 @@
     @include header-style;
     font-size: 20px;
     margin-bottom: 2rem;
+
+    @include response(phone){
+        left: 0;
+        font-size: 1.8rem;
+    }
 }
 
 #admissions-logo{
     position: absolute;
     top: 1vh;
-    left: calc(28%);
+    left: 28%;
     opacity: .1;
     z-index: -1;
+
+    @include response(phone){
+        left: 0;
+        width: 100vw;
+    }
 }
