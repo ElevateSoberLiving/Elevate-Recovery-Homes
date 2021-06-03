@@ -8,7 +8,8 @@
     z-index: 3;
     opacity: 0;
     height: 100%;
-    transition: opacity 1s ease 500ms;
+    display: none;
+    transition: all 1s ease 500ms;
 
     &__menu{
         display: flex;
@@ -122,6 +123,7 @@
     width: 45vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
     z-index: 3;
     height: 100%;

@@ -2,6 +2,10 @@
 
     &__community{
         margin: 0 5rem 20vh;
+        @include response(phone){
+            margin: 0 0 25vh;
+        }
+
         & hr {
             border-color: $yellow;
             border: solid .5px $yellow;
@@ -11,6 +15,11 @@
         &--header{
             margin: 0 auto 18rem;
             padding-top: 13rem;
+
+            @include response(phone){
+                width: 90%;
+                margin-bottom: 15rem;
+            }
             
             & h2{
                 @include header-style;
@@ -22,6 +31,9 @@
                 text-align: left;
                 color: $black;
                 margin: 0 auto;
+                @include response(phone){
+                    width: 90%;
+                }
             }
         }
 
@@ -31,30 +43,21 @@
             z-index: -2;
             top: 0;
             left: 0;
-            // clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%);
             width: 100%;
             height: 89%;
             background: no-repeat url('../../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png');
             background-position: center ;
             background-repeat: no-repeat;
-            // background-size: contain;
             background-attachment: fixed;
-            // background-color: red;
             opacity: .4;
             margin-bottom: 10vh;
         }
 
         &--body{
-            // position: relative;
-            // z-index:1;
 
             & hr{
                 margin: 0 auto;
             }
-
-            // & > hr{
-            //     border: solid .5px $slate;
-            // }
 
             & h3{
                 font-size: 1.5rem;
@@ -89,6 +92,10 @@
                 background-color: $black;
                 clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
                 z-index: -1;
+                @include response(phone){
+                    top: 38vh;
+                    height: 50vh;
+                }
             }
         }
     }

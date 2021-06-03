@@ -3,7 +3,9 @@ import SubMenu from './SubMenu'
 import { Link } from 'react-router-dom'
 
 function NavBar({ showMenu, setShowMenu }) {
-
+    const handleClick = () => {
+        
+    }
     return (
         <nav className={showMenu ? 'navbar active' : 'navbar' }>
             <ul className="navbar__menu">

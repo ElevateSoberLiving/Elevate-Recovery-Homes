@@ -6,15 +6,17 @@ import Hamburger from './Hamburger'
 import NavBar from './NavBar'
 
 function FixedHeader() {
-    const [showMenu, setShowMenu] = useState(true)
-
+    const [showMenu, setShowMenu] = useState(false)
+    const handleClick = () => {
+        setShowMenu(!showMenu)
+    }
     return (
         <div className="fixed-header">
             <img className="fixed-header__logo" src={LogoWhite} alt="Elevate Recovery Homes Logo" />
             <div className="fixed-header__menu">
                 <div className={showMenu ? `menu-background active-back` : 'menu-background'}></div>
-                <NavBar showMenu={showMenu} setShowMenu={setShowMenu} />
-                <Hamburger showMenu={showMenu} setShowMenu={setShowMenu}/>
+                <NavBar showMenu={showMenu} setShowMenu={handleClick} />
+                <Hamburger showMenu={showMenu} setShowMenu={handleClick}/>
             </div>
         </div>
     )
