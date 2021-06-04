@@ -26,7 +26,7 @@
         display: flex;
         justify-content: space-around;
         @include response(phone){
-                width: 50%;
+                width: 60%;
         }
         & div{
             display: flex;
@@ -55,4 +55,7 @@
 
 #copyright{
     color: $white-smoke;
+    @include response(phone){
+        font-size: .75rem;
+    }
 }

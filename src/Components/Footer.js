@@ -16,8 +16,8 @@ function Footer() {
                     <a target="_blank" rel="noreferrer noopener"><FaInstagram /></a>
                     <a target="_blank" rel="noreferrer noopener" ><FaTwitterSquare /></a> */}
                 </div>
-                <hr id="footer-break" />
-                <ul className="footer__menu">
+                {/* <hr id="footer-break" /> */}
+                {/* <ul className="footer__menu">
                     <li >
                         <Link className="links" to="/" >Home</Link>
                     </li>
@@ -36,7 +36,7 @@ function Footer() {
                     <li >
                         <Link className="links" to="/contact">Contact</Link>
                     </li>
-                </ul>
+                </ul> */}
             </div>
             <p id="copyright">© copyright 2021</p>
         </div>
