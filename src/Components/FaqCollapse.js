@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-function FaqCollapse({ question, children, key}) {
+function FaqCollapse({ question, children }) {
     const [clicked, setClicked] = useState(false)
 
     const handleClick = () => {
@@ -22,7 +22,7 @@ function FaqCollapse({ question, children, key}) {
     }
 
     return (
-        <div className="cards" key={key}>
+        <div className="cards">
             <div className="faq__question-container">
                 <h4 className="faq__question">Q: {question}</h4>
                 <div className="arrows" onClick={handleClick} >
