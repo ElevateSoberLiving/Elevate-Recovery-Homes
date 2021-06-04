@@ -26,7 +26,9 @@
             opacity: .6;
             
             @include response(phone){
-                margin-top: 5vh;
+                margin-top: 2vh;
+                background-color: red;
+                height: 35vh;
             }
             
         }
@@ -39,7 +41,7 @@
             padding: 10rem 9rem;
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
             @include response(phone){
-                margin: -10rem auto 5rem;
+                margin: -15rem auto 5rem;
                 padding: 10rem 0;
             }
             & hr{
