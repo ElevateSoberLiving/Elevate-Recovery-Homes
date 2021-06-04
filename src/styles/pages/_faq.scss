@@ -11,6 +11,13 @@
             width: auto;
         }
 
+        & h3{
+            @include response(phone){
+                font-size: 1.4rem;
+                text-align: center;
+            }
+        }
+
         & h2{
             color: $slate-gray;
             font-size: 3rem;
@@ -41,7 +48,7 @@
     &__question{
         margin: 1rem;
         margin-right: 0;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         text-align: left;
         flex-basis: 90%;
     }
@@ -55,7 +62,7 @@
         color: $white-smoke;
     }
     &__answer{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 
