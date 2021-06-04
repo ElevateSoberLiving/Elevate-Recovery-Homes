@@ -145,12 +145,11 @@
 
         & img{
             display: block;
-            height: 100%;
             width: 41vw;
             object-fit: cover;
             @include response(phone){
-                width: 80vw;
-                object-fit: cover;
+                width: 90vw;
+                object-fit: contain;
             }
         }
 
