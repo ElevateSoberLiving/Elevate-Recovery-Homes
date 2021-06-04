@@ -18,7 +18,7 @@
 
             @include response(phone){
                 width: 90%;
-                margin-bottom: 15rem;
+                margin-bottom: 12rem;
             }
             
             & h2{
@@ -52,7 +52,8 @@
             opacity: .4;
             margin-bottom: 10vh;
             @include response(phone){
-                background-position: 50% 8%;
+                background-position: 50% 15%;
+                height: 90%;
             }
         }
 
@@ -80,6 +81,10 @@
                     border-radius: 10px;
                     padding: 1rem;
                     margin: 1rem 1rem;
+
+                    @include response(phone){
+                        width: 90%;
+                    }
                     & p{
                         color: $slate-gray;
                     }
@@ -96,8 +101,8 @@
                 clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
                 z-index: -1;
                 @include response(phone){
-                    top: 40vh;
-                    height: 60vh;
+                    top: 90vh;
+                    height: 100vh;
                 }
             }
         }
