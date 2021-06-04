@@ -8,7 +8,7 @@
     align-items: center;
 
     @include response(phone){
-        margin-top: 10vh;
+        margin: 13vh auto 8vh;
     }
 
     &__icons{
@@ -24,6 +24,14 @@
 
     &__form-container{
         margin-right: 1rem;
+        @include response(phone){
+            margin-right: 0;
+        }
+        & h2{
+            @include response(phone){
+                margin-bottom: .5rem;
+            }
+        }
     }
 
     &__form-parent{
@@ -37,6 +45,7 @@
         @include response(phone){
             flex-basis: 90%;
             flex-direction: column;
+            padding: 2.5rem;
         }
 
         &--address-container{
@@ -57,6 +66,7 @@
                 }
                 & h5{
                     color: $slate-gray;
+                    font-size: 1rem;
                 }
             }
         }
