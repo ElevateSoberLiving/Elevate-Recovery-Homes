@@ -18,7 +18,7 @@
 
             @include response(phone){
                 width: 90%;
-                margin-bottom: 12rem;
+                margin-bottom: 15rem;
             }
             
             & h2{
@@ -44,7 +44,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 89%;
+            height: 90%;
             background: no-repeat url('../../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png');
             background-position: center ;
             background-repeat: no-repeat;
@@ -53,7 +53,6 @@
             margin-bottom: 10vh;
             @include response(phone){
                 background-position: 50% 15%;
-                height: 90%;
             }
         }
 
@@ -73,9 +72,11 @@
                 justify-content: space-evenly;
                 flex-wrap: wrap;
                 margin: 1rem 0 15rem;
-
+                @include response(phone){
+                    margin-bottom: 10rem;
+                }
                 & div {
-                    width: 25ch;
+                    width: 40ch;
                     box-shadow: 0 0 5px hsla(0, 0%, 0%, .3);
                     background-color: $white-smoke;
                     border-radius: 10px;
@@ -94,14 +95,13 @@
             &--pillars:after{
                 content: '';
                 position: absolute;
-                top: 63vh;
+                top: 32%;
                 width: 100%;
                 height: 90vh;
                 background-color: $black;
                 clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
                 z-index: -1;
                 @include response(phone){
-                    top: 90vh;
                     height: 100vh;
                 }
             }
