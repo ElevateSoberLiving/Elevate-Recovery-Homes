@@ -6,8 +6,9 @@
         filter: grayscale(100%);
 
         @include response(phone){
-            height: 35vh;
+            height: 65vh;
             margin-top: 10vh;
+            object-fit: cover;
         }
     }
 
@@ -23,7 +24,7 @@
         clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
 
         @include response(phone){
-            top: 16vh;
+            top: 30vh;
         }
         
         &--header{

@@ -12,6 +12,7 @@
         margin: 1rem;
         display: inline-block;
         text-decoration: none;
+        letter-spacing: 1px;
     }
 
     &__links:link{
@@ -50,6 +51,9 @@
         }
         &--logo{
             height: 20vw;
+            @include response(phone){
+                height: 40vw;
+            }
         }
 
         &--header{
@@ -184,7 +188,7 @@
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
             z-index: -2;
             @include response(phone){
-                height: 85vh;
+                height: 110vh;
             }
         }
     }
@@ -238,7 +242,7 @@
                 color: $slate-gray;
                 max-width: 85ch;
                 margin: 0 auto;
-                font-size: 1.1rem;
+                // font-size: 1.1rem;
             }
         }
     }
@@ -276,7 +280,7 @@
             margin: 0 auto 2rem 0;
         }
         & h2{
-            font-size: 2rem;
+            font-size: 2.3rem;
             color: $slate-gray;
         }
     }
@@ -291,9 +295,11 @@
             font-size: 2.5rem;
             border-bottom: solid;
             border-bottom-color: $yellow;
+
             @include response(phone){
                 letter-spacing: 3px;
                 font-size: 2rem;
+                margin-left: 1rem;
                 
             }
         }
