@@ -21,7 +21,7 @@ function NavBar({ showMenu, setShowMenu }) {
                     <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <div className="links" >SERVICES</div>
+                    <div className="links" >ELEVATION PLAN</div>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link></li>
                         <li ><Link className="links sublinks" to="/program/what-to-expect" onClick={setShowMenu} >WHAT TO EXPECT</Link></li>

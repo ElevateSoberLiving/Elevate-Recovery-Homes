@@ -49,10 +49,12 @@
             background-position: center ;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            opacity: .4;
+            opacity: .35;
             margin-bottom: 10vh;
+
             @include response(phone){
                 background-position: 50% 15%;
+                background-attachment: fixed;
             }
         }
 
@@ -121,10 +123,14 @@
             @include response(phone){
                 width: 85%;
             }
-
+            
             & h2{
+                
                 font-size: 1.85rem;
                 letter-spacing: 2px;
+                @include response(phone){
+                    font-size: 2rem;
+                }
             }
 
             & hr{
@@ -237,6 +243,15 @@
             @include response(phone){
                 flex-direction: column;
                 align-items: center;
+            }
+
+            & h4{
+                color: $slate-gray;
+
+                @include response(phone){
+                    font-size: 2rem;
+                    padding-bottom: .5rem;
+                }
             }
 
             & div{
