@@ -26,7 +26,7 @@
             opacity: .6;
             
             @include response(phone){
-                margin-top: 4vh;
+                margin-top: 2vh;
                 background-position: 50% 6%;
             }
             
@@ -40,7 +40,7 @@
             padding: 10rem 9rem;
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
             @include response(phone){
-                margin: -10rem auto 5rem;
+                margin: -13rem auto 5rem;
                 padding: 10rem 0;
             }
             & hr{
@@ -67,7 +67,11 @@
                     width: 90%;
                     margin: 0 auto; 
                 }
-
+                & h2{
+                    @include response(phone){
+                        margin-top: 2rem; 
+                    }
+                }
                 & span{
                     font-size: 20px;
                     font-weight: 600;
@@ -82,18 +86,24 @@
             align-items: center;
             margin: 3rem 5rem 5rem;
             text-align: left;
-            @include response(phone){
+
+            @include response(tab-port){
                 flex-direction: column-reverse;
+                width: 90%;
+                margin: 3rem auto 5rem;
             }
 
             &--container{
+
                 & h4{
                     font-size: 30px;
                 }
+
                 & h5{
                     color: $slate-gray;
                     font-size: 15px;
                 }
+
             }
         }
     }
@@ -250,10 +260,10 @@
     width: 43vw;
     margin-left: 2rem;
 
-    @include response(phone){
+    @include response(tab-port){
         width: 100%;
         padding: 0;
-        margin: 0 auto 2rem;
+        margin: 3rem auto 2rem;
     }
 }
 
@@ -267,6 +277,10 @@
     bottom: 0;
     height: 10rem;
     right: -4rem;
+
+    @include response(phone){
+        right: 0;
+    }
 }
 
 #signature-container{
@@ -284,4 +298,13 @@
     left: 15vw;
     opacity: .1;
     z-index: 0;
+}
+
+
+
+#letter-p{
+    text-indent: 30px;
+}
+#letter-dear{
+    margin-bottom: 1rem;
 }

@@ -4,9 +4,6 @@
     &  section{
         display: flex;
         margin: 2rem 7rem 5rem;
-        // @include response(phone){
-        //     margin: 2rem auto 5rem;
-        // }
         @include response(tab-port){
             margin: 2rem auto 5rem;
         }
@@ -15,10 +12,6 @@
             height: 80%;
             width: 45vw;
             filter: grayscale(100%);
-            // @include response(phone){
-            //     width: 90%;
-            //     margin: 2rem auto; 
-            // }
             @include response(tab-port){
                 width: 90%;
                 margin: 2rem auto; 
@@ -40,12 +33,6 @@
     }
 
     &__metro{
-        // @include response(phone){
-        //     display: flex;
-        //     flex-direction: column;
-        //     width: 90%;
-        //     margin: 2rem auto 5rem;
-        // }
         @include response(tab-port){
             display: flex;
             flex-direction: column;
@@ -54,9 +41,7 @@
         }
         & img{
             margin: 0 2rem 0 0;
-            // @include response(phone){
-            //     margin: 0 auto; 
-            // }
+
             @include response(tab-port){
                 margin: 0 auto;
             }
