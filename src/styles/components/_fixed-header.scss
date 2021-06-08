@@ -12,6 +12,16 @@
     @include response(phone){
         height: 10vh;
     }
+    &__left{
+        display: flex;
+        align-items: center;
+        color: $yellow;
+        & div{
+            margin-left: 1rem;
+            letter-spacing: 2px;
+            font-size: .9rem;
+        }
+    }
     &__menu{
         display: flex;
         align-items: center;

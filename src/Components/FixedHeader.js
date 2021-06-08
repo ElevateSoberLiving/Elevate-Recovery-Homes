@@ -10,7 +10,13 @@ function FixedHeader() {
     }
     return (
         <div className="fixed-header">
-            <img className="fixed-header__logo" src={LogoWhite} alt="Elevate Recovery Homes Logo" />
+            <div className="fixed-header__left">
+                <img className="fixed-header__logo" src={LogoWhite} alt="Elevate Recovery Homes Logo" />
+                <div>
+                    <h3>CALL US</h3>
+                    <h4>(720) 300-3861</h4>
+                </div>
+            </div>
             <div className="fixed-header__menu">
                 <div className={showMenu ? `menu-background active-back` : 'menu-background'}></div>
                 <NavBar showMenu={showMenu} setShowMenu={handleClick} />
