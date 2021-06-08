@@ -28,9 +28,11 @@
     &__first-image{
         height: 30vw;
         margin: 0 2rem 0 0;
+
         @include response(phone){
-            height: 50vw;
-            margin-top: 3rem;
+            height: auto;
+            width: 100%;
+            margin: 3rem auto;
         }
     }
     &__first p{
@@ -67,6 +69,10 @@
         padding: 6rem;
         margin: 10rem 0 7rem;
 
+        @include response(phone){
+            padding: 6rem 0;
+        }
+
         & h2{
             font-size: 2rem;
         }
@@ -76,7 +82,7 @@
             margin: 0 auto;
             font-size: 1.5rem;
             @include response(phone){
-                width: 100%;
+                width: 90%;
             }
         }
     }

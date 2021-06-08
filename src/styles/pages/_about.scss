@@ -128,6 +128,8 @@
             
             @include response(tab-port){
                 flex-direction: column-reverse;
+                margin: 1rem auto 5rem;
+                width: 90%;
             }
             
             &  p{
@@ -201,6 +203,11 @@
                         text-align: left;
                         text-indent: 20px;
                     }
+
+                    & h4 {
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                    }
                 }
             }
         }
@@ -212,6 +219,11 @@
             flex-direction: column;
             align-items: center;
             margin: 3rem 6rem;
+
+            @include response(tab-port-sm){
+                margin: 3rem auto;
+                width: 90%;
+            }
             & hr{
                 width: 8%;
                 border-color: $slate-gray;
@@ -250,6 +262,7 @@
     width: 48vw;
     margin-left: 1rem;
     height: 80%;
+
     @include response(tab-port){
         width: 100%;
         margin: 0 auto 2rem;
