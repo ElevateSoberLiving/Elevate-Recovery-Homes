@@ -1,7 +1,5 @@
 
-
 .navbar{
-    // width: 50vw;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -16,34 +14,32 @@
     }
 
     @include response(tab-port-sm){
-        width: 80vw;
+        width: 100%;
+        height: 100%;
     }
 
     &__menu{
+        position: absolute;
+        right: 6vw;
         display: flex;
-        width: 100%;
         height: 100%;
+        width: 58vw;
         justify-content: space-between;
         align-items: center;
         list-style-type: none;
-        padding-right: 2rem;
 
-        @include response(phone){
-            flex-direction: column;
-            position: fixed;
-            align-items: center;
-            padding: 10rem 0;
-            left: 0;
-            top: 0;
-            
+        @include response(tab-port){
+            right: 8vw;
         }
         @include response(tab-port-sm){
             flex-direction: column;
-            position: fixed;
             align-items: center;
-            padding: 10rem 0;
+            justify-content: center;
+            padding: 3rem 0;
             left: 0;
             top: 0;
+            height: 100vh;
+            width: 100vw;
         }
         
 
@@ -57,11 +53,16 @@
             clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
 
             @include response(tab-port-sm){
-                display: block;
+                display: none;
                 clip-path: none;
-                position: relative;
-                top: 0;
-                background: transparent;
+                position: absolute;
+                top: 65%;
+                left: 50%;
+                transform: translateX(-50%);
+                background: whitesmoke;
+                padding: 1rem;
+                box-shadow: 0 2px 4px hsla(0, 0%, 0%, .4);
+                z-index: 1;
             }
             
         }
@@ -76,7 +77,7 @@
     background-color: $white-smoke;
     position: absolute;
     right: 0;
-    width: 57vw;
+    width: 71vw;
     height: 100%;
     z-index: 3;
     clip-path: polygon(calc(0% + 10vw) 0, 100% 0, 100% 100%, 0 100%);
@@ -90,11 +91,11 @@
     }
 
     @include response(tab-land){
-        width: 65vw
+        width: 74vw;
     }
 
     @include response(tab-port){
-        width: 70vw;
+        width: 73vw;
     }
     @include response(tab-port-sm){
         width: 73vw;
@@ -108,6 +109,7 @@
             height: 100vh;
             width: 100vw;
             top: 0;
+            z-index: 0;
             clip-path: none;
         }
     }
@@ -115,6 +117,13 @@
 
 .links{
     text-decoration: none;
+    font-size: .9rem;
+    letter-spacing: 1px;
+
+    @include response(tab-port-sm){
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
 
     &:link{
         color: $black;
@@ -132,6 +141,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
 }
 
 .links:hover{
@@ -149,7 +159,7 @@
 }
 
 .navbar.active{
-    width: 45vw;
+    width: 58vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,13 +170,15 @@
     transition: 350ms ease  500ms;  
     
     @include response(tab-land){
-        width: 50vw;
+        width: 61vw;
     }
     @include response(tab-port){
         width: 53vw;
     }
     @include response(tab-port-sm){
-        width: 0;
+        width: 100vw;
+        height: 100vh;
+        width: 85%;
     }
 }
 
@@ -176,8 +188,13 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-
-    @include response(phone){
-        display: block;
+    
+    @include response(tab-port-sm){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
     }
 }

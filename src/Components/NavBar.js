@@ -1,17 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SubMenu from './SubMenu'
 import { Link } from 'react-router-dom'
+import { FaAngleUp, FaAngleDown} from 'react-icons/fa'
 
 function NavBar({ showMenu, setShowMenu }) {
+    const [clicked, setClicked] = useState(false)
+    const handleClick = () => setClicked(!clicked)
     
     return (
-        <nav className={showMenu ? 'navbar active' : 'navbar' }>
+        <nav className={showMenu ? 'navbar active' : 'navbar'}>
             <ul className="navbar__menu">
                 <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" to="/" onClick={setShowMenu} >HOME</Link>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'} >
-                    <div className="links" >ABOUT US</div>
+                    <div>
+                        <Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link>
+                        <div className="arrows" onClick={handleClick} >
+                            {clicked ? <FaAngleUp /> : <FaAngleDown />}
+                        </div>
+                    </div>
+
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/about/elevate-recovery-homes" onClick={setShowMenu} >ELEVATE RECOVERY HOMES</Link></li>
                         <li ><Link className="links sublinks" to="/about/our-team" onClick={setShowMenu} >OUR TEAM</Link></li>
@@ -21,20 +30,17 @@ function NavBar({ showMenu, setShowMenu }) {
                     <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <div className="links" >ELEVATION PLAN</div>
+                    <Link className="links" to="/program/elevation-plan">ELEVATION PLAN</Link>
                     <SubMenu>
-                        <li ><Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link></li>
                         <li ><Link className="links sublinks" to="/program/what-to-expect" onClick={setShowMenu} >WHAT TO EXPECT</Link></li>
-                        <li ><Link className="links sublinks" to="/program/elevation-plan" onClick={setShowMenu} >ELEVATION PLAN</Link></li>
                         <li ><Link className="links sublinks" to="/program/vocational-training" onClick={setShowMenu} >VOCATIONAL TRAINING</Link></li>
                     </SubMenu>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <div className="links" >ADMISSIONS</div>
+                    <Link className="links " to="/admissions/admission-info" onClick={setShowMenu} >ADMISSIONS INFO</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/admissions/community" onClick={setShowMenu} >OUR COMMUNITY</Link></li>
                         <li ><Link className="links sublinks" to="/admissions/tufts-home" onClick={setShowMenu} >TUFTS HOME</Link></li>
-                        <li ><Link className="links sublinks" to="/admissions/admission-info" onClick={setShowMenu} >ADMISSIONS INFO</Link></li>
                     </SubMenu>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
