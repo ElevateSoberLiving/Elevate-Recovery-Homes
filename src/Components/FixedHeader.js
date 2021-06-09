@@ -5,6 +5,7 @@ import NavBar from './NavBar'
 
 function FixedHeader() {
     const [showMenu, setShowMenu] = useState(false)
+
     const handleClick = () => {
         setShowMenu(!showMenu)
     }

@@ -22,7 +22,7 @@ function NavBar({ showMenu, setShowMenu }) {
                     <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <Link className="links" to="/program/elevation-plan">ELEVATION PLAN</Link>
+                    <Link className="links" to="/program/elevation-plan" onClick={setShowMenu}>ELEVATION PLAN</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/program/what-to-expect" onClick={setShowMenu} >WHAT TO EXPECT</Link></li>
                         <li ><Link className="links sublinks" to="/program/vocational-training" onClick={setShowMenu} >VOCATIONAL TRAINING</Link></li>
