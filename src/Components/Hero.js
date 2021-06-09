@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import FoggyMountains from '../Assets/Images/FoggyMountains.png'
+import FoggyMountains from '../Assets/Images/FoggyMountains-min.png'
 
 function Hero() {
     return (

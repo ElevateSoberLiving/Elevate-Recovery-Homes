@@ -6,7 +6,7 @@ function Community() {
             <div className="admissions__community--header">
                 <h2>OUR COMMUNITY</h2>
                 <hr/>
-                <p>Elevate Recovery provides a location to maximize our member’s ability to engage in a future-focused lifestyle while providing them with the comfort and safety necessary to treat the disease of addiction. In most intensive outpatient drug and alcohol rehab programs, clients visit a facility, receive treatment, and then leave. At Elevate Recovery, our members will have the option to stay at a carefully designed recovery residence and be guided through a process that keeps them engaged and immersed in a lifestyle of recovery, growth, and success throughout each stage of their program.</p>
+                <p>Elevate Recovery provides a community to maximize our member's ability to engage in a future-focused lifestyle. In most intensive outpatient drug and alcohol rehab centers, clients visit a facility, receive treatment, and leave. At Elevate Recovery, our members will have the option to stay for as long as they'd like at a carefully designed recovery home and be guided through a process that keeps them engaged and immersed in a lifestyle of recovery, growth, and success.</p>
             </div>
             <div className="admissions__community--body">
                 <h3>HOW WE CAN HELP</h3>
@@ -15,22 +15,22 @@ function Community() {
                     <div>
                         <h4>STRUCTURE</h4>
                         <hr/>
-                        <p>We provide the daily Structure, personal Accountability, community Support, and a plan of Action needed to lead a healthy recovery program. If you are looking for a structured sober living environment and comprehensive after-treatment solutions, Elevate Recovery is the answer</p>
+                        <p>Beginning a journey of recovery after receiving treatment for substance use disorder isn't always easy. There will be times when you may feel like giving up, when thoughts of drinking or using are powerful, or when you might feel like a failure. Therefore, it is vital to have a structured system and routine to keep you on the right track. Taking healthy and intentional steps to develop a sober lifestyle will ensure that you have the support you need.</p>
                     </div>
                     <div>
                         <h4>ACCOUNTABILITY</h4>
                         <hr/>
-                        <p>Having people in our lives who hold us accountable for our behavior proves to be extremely helpful. This can help us to stay on track and keep our focus on the things that matter. Honesty and accountability play a vital role in recovery.</p>
+                        <p>Having a community of peers who hold us accountable for our behavior proves extremely helpful in recovery. Community as a method is a practice we utilize to create accountability. This can help us to stay on track and keep our focus on the things that matter most. For an individual in recovery, what is truly important is an addiction-free life. Honesty and accountability play a vital role in this process.</p>
                     </div>
                     <div>
                         <h4>SUPPORT</h4>
                         <hr/>
-                        <p>Elevate provides a support system that you can rely on to stay clean and sober. People who spend time living with other sober people after treatment are more likely to maintain their sobriety and build a strong program of recovery.</p>
+                        <p>A support system is a network of people who provide an individual with practical, emotional, and spiritual encouragement that they can rely on to stay clean and sober. Your support system or community may be composed of people from your Recovery Group, family, close friends, or a combination thereof. It's important to know that while you can and should do a great deal on your own, a support system can make early recovery much more manageable. After treatment, people who spend time living with other sober people are more likely to maintain their sobriety and build a robust recovery program.</p>
                     </div>
                     <div>
                         <h4>ACTION</h4>
                         <hr/>
-                        <p>The three other pillars just discussed culminate through consistent action. The most essential instrument in recovery is participating in it. We know from experience that a mind, body, and spirit aligned with intent and perseverance, gives us the best chance for lifelong success.</p>
+                        <p>Active participation is mandatory in our community. We know everybody's journey to recovery is different. There is no one size fits approach to recovery. What works for one member may not work for another. Therefore, we take an 'all methods' approach to sobriety, allowing our members to find what works best for their recovery. We have found that this methodology is best suited for increasing the likelihood of success.</p>
                     </div>
                 </div>
             </div>

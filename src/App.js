@@ -6,7 +6,7 @@ import Program from './pages/Program'
 import Admissions from './pages/Admissions'
 import Contact from './pages/Contact'
 import FAQ from './pages/FAQ'
-
+import { useEffect } from 'react'
 import FixedHeader from './Components/FixedHeader'
 import Footer from './Components/Footer'
 import {
@@ -17,6 +17,11 @@ import {
 
 
 function App() {
+  
+  useEffect(() => {
+    document.title = "Elevate Recovery Homes"
+  }, []);
+
   return (
     <div className="App">
       <Router>

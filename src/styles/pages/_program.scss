@@ -64,19 +64,25 @@
         &--pillars{
             display: flex;
             justify-content: space-evenly;
+            flex-wrap: wrap;
             margin: 3rem 0 10rem;
-
+            
             @include response(tab-port){
                 width: 90%;
-                margin: 0 auto;
                 flex-wrap: wrap;
+                margin: 3rem auto 0;
             }
 
             &--cards{
                 box-shadow: 0 0 6px hsla(0, 0%, 0%, .3);
+                width: 30vw;
                 border-radius: 6px;
                 margin: 2rem;
                 padding: 1rem;
+
+                @include response(phone){
+                    width: 100%;
+                }
             }
 
             &--cards:hover{

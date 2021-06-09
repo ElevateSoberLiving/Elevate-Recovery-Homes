@@ -1,6 +1,6 @@
 import React from 'react'
-import Training from '../Assets/Images/Stock-Training.jpg'
-import RockClimbing from '../Assets/Images/Rock-Climbing.jpg'
+import Training from '../Assets/Images/Stock-Training-min.jpg'
+import RockClimbing from '../Assets/Images/Rock-Climbing-min.jpg'
 
 function EmploymentTraining() {
     return (
@@ -12,8 +12,8 @@ function EmploymentTraining() {
                         <hr />
                     </div>
                     <img src={RockClimbing} alt="Rock climbing" />
-                    <p>At Elevate, our mission is to support members in creating a life of purpose and value. As our members work toward attaining autonomy, independence, and personal fulfillment, we encourage them to find meaningful work and career goals that support this endeavor. Knowing who you are, what you’re good at, what excites you, and “how you do you” is vital to that process.</p>
-                    <p>We utilize a Career Explorer Aptitude and Assessment test to help individuals identify career paths based on interests, abilities, and personality. Throughout the process, our staff provides members with one-on-one mentoring, attention to detail, and a layer of accountability that helps build momentum and keep goals in focus.</p>
+                    <p>At Elevate, our mission is to support members in creating a life of purpose and value. As our members work toward attaining autonomy, independence, and personal fulfillment, we encourage them to find meaningful work and career goals that support this endeavor. Knowing who you are, what you’re good at, what excites you, and how “you do you” is vital to that process.</p>
+                    <p>For members of our community who want job skills support, we utilize a Career Explorer Aptitude and Assessment test to help members identify career paths based on interests, abilities, and personality. Our staff provides members with one-on-one mentoring, attention to detail, and a layer of accountability that helps build momentum and keep goals in focus throughout the process.</p>
                     <h4>ONLINE TESTING AND ANALYSIS PROVIDES INFORMATION MEMEBERS NEED TO:</h4>
                     <div>
                         <ul>
@@ -33,9 +33,11 @@ function EmploymentTraining() {
                 <div className="program__vocational-training--employment--container">
                     <h1>EMPLOYMENT</h1>
                     <div className="mountain"></div>
-                    <p>While at Elevate Recovery, all members are required to secure employment. Significant time and resources are devoted to this pursuit. It is our philosophy that work is one of the most therapeutic tools for adult men. Oftentimes our members lack self-confidence in their abilities, have little to no work experience, and are naïve about the value of money and what the cost of living really entails. Most of our members have been supported and even enabled throughout their life by well-meaning family members and haven’t learned how to set up a bank account, pay bills, create a budget, or save for a future goal. We believe that a healthy understanding and appreciation for money is an important demonstration of maturity, gratitude, and responsibility. Throughout their stay at Elevate, financial literacy lessons and challenges are presented to members to instill a healthy relationship with money. At times, we will ask families to refrain from making purchases on behalf of their members to allow for this.</p>
+                    <p>While at Elevate Recovery, all members are required to secure employment. Significant time and resources are devoted to this pursuit. It is our philosophy that work is one of the most therapeutic tools for adult men. Often, our members lack self-confidence in their abilities, have little to no work experience, and are naïve about the value of money and living costs. Most of our members have been supported and even enabled throughout their life by well-meaning family members and haven’t learned how to set up a bank account, pay bills, create a budget, or save for a future goal.</p>
                     <br />
-                    <p>Our members take advantage of the job opportunities and variety of jobs available to them. Some examples of jobs our members have secured: telemarketing, auto shop mechanic, arborist, bike shop mechanic, barista, grocery store, animal kennel/daycare, construction, and many more. We encourage members to find the job that’s right for them even if that means they need to take a less than desirable position to start. For most of our members, the freedom and decreased supervision that comes when they secure employment is motivation enough to establish a full-time job.</p>
+                    <p>We believe that a healthy understanding and appreciation for money is an essential demonstration of maturity, gratitude, and responsibility. We help our members to instill a healthy relationship with money through financial literacy lessons and support working through economic challenges. </p>
+                    <br/>
+                    <p>Our members take advantage of the job opportunities and variety of jobs available to them. Some examples of jobs our members have secured: telemarketing, auto shop mechanic, arborist, bike shop mechanic, barista, grocery store, animal kennel/daycare, construction, and many more. We encourage members to find the job that’s right for them, even if that means they need to take a less than desirable position to start. For most members, the freedom and decreased supervision that comes when they secure employment is motivation enough to establish a full-time job.</p>
                 </div>
                 <div className="program__vocational-training--employment--lower">
                     <img src={Training} alt="Working in a meeting" />

@@ -25,7 +25,7 @@ function FAQ() {
                 </div>
             </div>
             {handleFaqData()}
-            <h4>DIDN'T FIND AN ANSWER TO A QUESTION YOU HAVE? REACH OUT TO US, AND WE WILL GET BACK TO YOU <Link id="smaller-contact" to="/contact">CONTACT</Link></h4>
+            <h4>DIDN'T FIND THE ANSWER YOU WERE LOOKING FOR? PLEASE CONTACT US, AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE. <Link id="smaller-contact" to="/contact">CONTACT</Link></h4>
         </div>
     )
 }

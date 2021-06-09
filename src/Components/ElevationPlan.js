@@ -8,14 +8,8 @@ function ElevationPlan() {
                 <div className="program__elevation-plan__header--container">
                     <h1>ELEVATION PLAN</h1>
                     <div className="mountain"></div>
-                    <p>
-                        Elevate Recovery Homes Elevation Plan involves preparing members for success over the long term and assisting members with developing life skills including financial planning and accountability development. Our staff also help with job skills including resume building, interviewing, workplace behavior, and career selection.
-                </p>
-
-                    <p>
-                        Community as a method is a practice we utilize to create accountability. House staff and peers make sure members are attending their meetings, communicating with their sponsors and therapists, and are generally thriving within the program.
-                </p>
-
+                    <p>Elevate Recovery Homes Elevation Plan involves preparing members for success over the long term and assisting members with developing life skills, including financial planning and accountability development. This is not a professional service and is not overseen by a clinician. Our Elevation Plan’s only intent is to offer additional support for each community member to become more self-reliant and independent. Our staff can also help members develop job skills, including resume building, interviewing, workplace behavior, and career selection.</p>
+                    <p>Community as a method is a practice we utilize to create accountability. House staff and peers make sure members attend their meetings, communicate with their sponsors and therapists, and thrive within the community.</p>
                 </div>
             </div>
             <div className="program__elevation-plan__weekly-meetings">

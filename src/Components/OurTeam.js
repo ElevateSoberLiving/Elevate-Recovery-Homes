@@ -1,6 +1,6 @@
 import React from 'react'
-import GroupSnowboarding from '../Assets/Images/Group-Snowboarding.jpg'
-import Signature from '../Assets/Images/Bryce-Givens-Sig.jpeg'
+import GroupSnowboarding from '../Assets/Images/Group-Snowboarding-min.jpg'
+import Signature from '../Assets/Images/Bryce-Givens-Sig-min.jpeg'
 
 function OurTeam() {
     return (
@@ -10,7 +10,7 @@ function OurTeam() {
                 <div className="about-us__our-team__team--desc">
                     <h2>OUR TEAM</h2>
                     <hr />
-                    <p>Elevate Recovery’s team of professionals understands that drug and alcohol addiction is a multi-faceted, personal disease that requires individualized care to be effectively treated. Our staff members guide members through an innovative approach to overcoming drug and alcohol addiction using multiple modalities geared at promoting growth and sustainable change in every area of the lives of our members.</p>
+                    <p>Elevate recovery’s team of professionals understands that drug and alcohol addiction is a multi-faceted, personal disease that requires individualized care to be treated effectively. Our staff helps guide members through an innovative approach to overcoming drug and alcohol addiction using various strategies geared at promoting growth and sustainable change in every area of the lives of our members.</p>
                 </div>
                 <div className="about-us__our-team__team--staff">
                     <h2>WHO WE ARE</h2>
