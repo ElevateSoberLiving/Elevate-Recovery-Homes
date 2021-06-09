@@ -1,12 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import SubMenu from './SubMenu'
 import { Link } from 'react-router-dom'
-import { FaAngleUp, FaAngleDown} from 'react-icons/fa'
+
 
 function NavBar({ showMenu, setShowMenu }) {
-    const [clicked, setClicked] = useState(false)
-    const handleClick = () => setClicked(!clicked)
-    
+
     return (
         <nav className={showMenu ? 'navbar active' : 'navbar'}>
             <ul className="navbar__menu">
@@ -14,14 +12,8 @@ function NavBar({ showMenu, setShowMenu }) {
                     <Link className="links" to="/" onClick={setShowMenu} >HOME</Link>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'} >
-                    <div>
-                        <Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link>
-                        <div className="arrows" onClick={handleClick} >
-                            {clicked ? <FaAngleUp /> : <FaAngleDown />}
-                        </div>
-                    </div>
-
-                    <SubMenu>
+                    <Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link>
+                    <SubMenu >
                         <li ><Link className="links sublinks" to="/about/elevate-recovery-homes" onClick={setShowMenu} >ELEVATE RECOVERY HOMES</Link></li>
                         <li ><Link className="links sublinks" to="/about/our-team" onClick={setShowMenu} >OUR TEAM</Link></li>
                     </SubMenu>

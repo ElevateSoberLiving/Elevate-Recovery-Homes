@@ -23,8 +23,9 @@
         padding: 3.5rem 3rem;
         clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
 
-        @include response(phone){
+        @include response(tab-port-sm){
             top: 30vh;
+            padding: 3.5rem 0;
         }
         
         &--header{

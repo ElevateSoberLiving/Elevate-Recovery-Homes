@@ -20,10 +20,10 @@
 
     &__menu{
         position: absolute;
-        right: 6vw;
+        right: 4vw;
         display: flex;
         height: 100%;
-        width: 58vw;
+        width: 60vw;
         justify-content: space-between;
         align-items: center;
         list-style-type: none;
@@ -35,7 +35,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 3rem 0;
+            padding: 0;
             left: 0;
             top: 0;
             height: 100vh;
@@ -56,13 +56,11 @@
                 display: none;
                 clip-path: none;
                 position: absolute;
-                top: 65%;
-                left: 50%;
-                transform: translateX(-50%);
-                background: whitesmoke;
-                padding: 1rem;
-                box-shadow: 0 2px 4px hsla(0, 0%, 0%, .4);
-                z-index: 1;
+                top: 5rem;
+                
+                z-index: 2;
+                padding: 1.5rem 2.5rem;
+                box-shadow: 0 4px 4px hsla(0, 0%, 0%, .3);
             }
             
         }
@@ -148,12 +146,6 @@
     color: $yellow;
 }
 
-.links-container:hover {
-    .navbar__menu--submenu{
-        display: block;
-    }
-}
-
 .sublinks{
     padding: .2rem;
 }
@@ -190,11 +182,44 @@
     height: 100%;
     
     @include response(tab-port-sm){
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         position: relative;
-        margin: 0 auto;
+        width: 65%;
+    }
+}
+
+.links-container:hover{
+    .navbar__menu--submenu{
+        @media only screen and (min-width: 700px){
+            display: block;
+        }
+    }
+}
+
+
+.nav-arrows{
+    @include center;
+    display: none;
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+    color: $slate-gray;
+    @include response(tab-port-sm){
+        display: block;
+        position: absolute;
+        right: 20%;
+        top: calc(50% - 1.5rem);
+    }
+
+    @include response(phone){
+        right: 0%;
+        
+    }
+
+}
+
+.navbar__menu--submenu.active{
+    @include response(tab-port-sm){
+        display: block;
+        
     }
 }
