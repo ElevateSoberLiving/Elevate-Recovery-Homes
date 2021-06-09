@@ -1,6 +1,6 @@
 import React from 'react'
 import Training from '../Assets/Images/Stock-Training.jpg'
-import Working from '../Assets/Images/Stock-Working.jpg'
+import RockClimbing from '../Assets/Images/Rock-Climbing.jpg'
 
 function EmploymentTraining() {
     return (
@@ -11,7 +11,7 @@ function EmploymentTraining() {
                         <h2>CAREER AND VOCATIONAL TRAINING</h2>
                         <hr />
                     </div>
-                    <img src={Training} alt="Group training for work" />
+                    <img src={RockClimbing} alt="Rock climbing" />
                     <p>At Elevate, our mission is to support members in creating a life of purpose and value. As our members work toward attaining autonomy, independence, and personal fulfillment, we encourage them to find meaningful work and career goals that support this endeavor. Knowing who you are, what you’re good at, what excites you, and “how you do you” is vital to that process.</p>
                     <p>We utilize a Career Explorer Aptitude and Assessment test to help individuals identify career paths based on interests, abilities, and personality. Throughout the process, our staff provides members with one-on-one mentoring, attention to detail, and a layer of accountability that helps build momentum and keep goals in focus.</p>
                     <h4>ONLINE TESTING AND ANALYSIS PROVIDES INFORMATION MEMEBERS NEED TO:</h4>
@@ -38,7 +38,7 @@ function EmploymentTraining() {
                     <p>Our members take advantage of the job opportunities and variety of jobs available to them. Some examples of jobs our members have secured: telemarketing, auto shop mechanic, arborist, bike shop mechanic, barista, grocery store, animal kennel/daycare, construction, and many more. We encourage members to find the job that’s right for them even if that means they need to take a less than desirable position to start. For most of our members, the freedom and decreased supervision that comes when they secure employment is motivation enough to establish a full-time job.</p>
                 </div>
                 <div className="program__vocational-training--employment--lower">
-                    <img src={Working} alt="Working on computer" />
+                    <img src={Training} alt="Working in a meeting" />
                     <div className="program__vocational-training--employment--lower--desc">
                         <h4>LESSONS THROUGH EMPLOYMENT:</h4>
                         <ul>

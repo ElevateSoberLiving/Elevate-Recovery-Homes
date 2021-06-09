@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfessStock from '../Assets/Images/Stock-Professional.jpg'
+import GroupSnowboarding from '../Assets/Images/Group-Snowboarding.jpg'
 import Signature from '../Assets/Images/Bryce-Givens-Sig.jpeg'
 
 function OurTeam() {
@@ -20,8 +20,6 @@ function OurTeam() {
                         <br />Bryce’s approach to treatment and recovery is simple.  Offer men the guidance, insight, and compassion they need, and watch them grow.  His personal journey through addiction and into a life of fullness in sobriety acts as a beacon of light to men from all walks of life.  As program administrator and head of operations oversight, Bryce ensures that all of our members are getting the treatment and tools to overcome addiction and excel in every area of life.
                         <br />
                         <br />
-                        {/* <span>Robert Mitchell - Program Development</span>
-                        <br />Robert is a key member of the Elevate Recovery family and has been essential in the development of program operations. After becoming sober in 2015, Robby dedicated his life to leading men to spiritual freedom and a lifestyle of recovery. His commitment to leadership and guidance is apparent in every facet of his life. As a contributor to multiple personal growth-focused organizations, Robby has made a direct impact in the recovery community, paving the way for men looking not only to combat the disease of addiction but live a life of purpose and excellence. */}
                     </p>
                 </div>
             </div>
@@ -47,7 +45,7 @@ function OurTeam() {
                         <img id="signature-img" src={Signature} alt="Bryce Givens Signature" />
                     </div>
                 </div>
-                <img src={ProfessStock} alt="Welcoming owner at coffee bar" id="letter-img" />
+                <img src={GroupSnowboarding} alt="Welcoming owner at coffee bar" id="letter-img" />
             </div>
         </section>
     )

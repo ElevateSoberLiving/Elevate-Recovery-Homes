@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import RedRocks from '../Assets/Images/Redrocks.jpg'
 
 function WhatToExpect() {
     return (
         <section className="program__what-to-expect">
+            <img src={RedRocks} id="redrocks" alt="Red Rocks mountains"/>
             <h2>WHAT YOU CAN EXPECT</h2>
             <hr/>
             <p>Like life, everything at Elevate Recovery is progressive, with challenges, expectations, and responsibilities increasing as members make healthy choices for themselves. You can expect to immediately feel the love and support as soon as you enter into one of our homes. Someone who has been in the same shoes as you will be there to help guide you through. You can expect us to help with the same passion and purpose that has gotten us to where we are in our recovery. A safe environment will be provided for you to heal, grow, and develop the practices for living a healthy and full life. Every resource we have available will be at your disposal. At Elevate we don’t have clients, we have members because everyone is treated like family.</p>

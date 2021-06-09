@@ -1,5 +1,5 @@
 import React from 'react'
-import Desert from '../Assets/Images/Stock-desert.jpg'
+import GroupSunset from '../Assets/Images/Group-at-Sunset.jpg'
 
 function ElevateRecoveryHomes() {
     return (
@@ -23,7 +23,7 @@ function ElevateRecoveryHomes() {
                         At Elevate, we allow for more personal attention, individualized programming, and increased accountability. We want our home to feel like your home – not a program, institution, or facility. With a handful of roommates, you have space and support to learn and grow. We want you and your roommates to support, celebrate and hold each other accountable so that you develop meaningful relationships that can last a lifetime. We schedule group activities, field trips, community meals, house meetings, and sober anniversary parties to help nurture these relationships and celebrate life’s moments together.
                     </p>
                 </div>
-                <img src={Desert} alt="People running in desert at sundown" id="our-mission-img"/>
+                <img src={GroupSunset} alt="People holding arms up in desert at sundown" id="our-mission-img"/>
             </div>
             <div className="about-us__elevate-recovery-homes--philosophy">
                 <div className="about-us__elevate-recovery-homes--philosophy--header">

@@ -4,6 +4,7 @@ import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_C
 import Mountains from '../Assets/Images/MountainLine.png'
 import LookingComputer from '../Assets/Images/Looking-at-Computer.jpg'
 import Hiking from '../Assets/Images/Guy-Hiking.jpg'
+import HikingDesert from '../Assets/Images/Hiking-Desert.jpg'
 import Group3 from '../Assets/Images/Stock-Group3.jpg'
 import EmbedVideo from '../Components/EmbedVideo'
 import Hero from '../Components/Hero'
@@ -15,7 +16,7 @@ function Home() {
         <div className="home">
             <Hero />
             <section className="home__first">
-                <img className="home__first-image" src={Group3} alt="Group having fun" />
+                <img className="home__first-image" src={HikingDesert} alt="Hiking in the desert" />
                 <div >
                     <img className="home__first--logo" src={Logo} alt="Elevate Recovery Logo" />
                     <h2 className="home__first--header" >DENVER’S PREMIER TRANSITIONAL LIVING COMMUNITY FOR ADULT MEN</h2>
