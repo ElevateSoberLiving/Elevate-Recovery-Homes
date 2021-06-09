@@ -8,7 +8,6 @@ import HikingDesert from '../Assets/Images/Hiking-Desert-min.jpg'
 import EmbedVideo from '../Components/EmbedVideo'
 import Hero from '../Components/Hero'
 import { FaArrowRight } from 'react-icons/fa'
-import Tour from '../../public/Tour.mp4'
 
 function Home() {
     return (
@@ -69,7 +68,7 @@ function Home() {
                     <h2>THE HOUSE</h2>
                     <Link className="home__links" id="house-link" to="/admissions/tufts-home">MORE ABOUT TUFTS HOME</Link>
                 </div>
-                <EmbedVideo videoId={Tour} />
+                <EmbedVideo videoId={process.env.PUBLIC_URL + '/Tour.mp4'} />
             </section>
             <section className="home__eighth">
                 <h2>GET IN TOUCH</h2>
