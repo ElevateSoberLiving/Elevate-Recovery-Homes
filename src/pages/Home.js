@@ -11,7 +11,6 @@ import { FaArrowRight } from 'react-icons/fa'
 import Tour from '../Assets/Video/tour.mp4'
 
 function Home() {
-    console.log(Tour)
     return (
         <div className="home">
             <Hero />

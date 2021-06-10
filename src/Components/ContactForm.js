@@ -2,15 +2,15 @@ import React from 'react'
 
 function ContactForm() {
     return (
-        <form className="contact__form" >
+        <form className="contact__form" netlify>
             <label>Name:</label>
-            <input />
+            <input name="name"/>
             <label>Phone Number:</label>
-            <input />
+            <input name="phone-number"/>
             <label>Email Address:</label>
-            <input />
+            <input type="email" name="email" />
             <label>Comments</label>
-            <textarea />
+            <textarea name="comments"/>
             <input type="submit" value="Contact Us"/>
         </form>
     )
