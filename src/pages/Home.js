@@ -8,7 +8,7 @@ import HikingDesert from '../Assets/Images/Hiking-Desert-min.jpg'
 import EmbedVideo from '../Components/EmbedVideo'
 import Hero from '../Components/Hero'
 import { FaArrowRight } from 'react-icons/fa'
-import Tour from '../Assets/Video/Tour.mp4'
+import Tour from '../Assets/Video/tour.mp4'
 
 function Home() {
     return (
