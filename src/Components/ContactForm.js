@@ -45,7 +45,7 @@ function ContactForm() {
             {formSuccess ?
                 <h3>Thank you for interest well be in contact soon</h3>
                 :
-                <form className="contact__form" name="contact" onSubmit={handleSubmit}>
+                <form className="contact__form" name="contact" onSubmit={handleSubmit} netlify>
                     <label>Name:</label>
                     <input name="name" value={formData.name} onChange={handleChange}/>
                     <label>Phone Number:</label>
@@ -54,8 +54,8 @@ function ContactForm() {
                     <input type="email" name="email" value={formData.email} onChange={handleChange}/>
                     <label>Comments</label>
                     <textarea name="comments" value={formData.comments} onChange={handleChange}/>
-                    <input type="hidden" name="contact" value="name_of_my_form" />
-                    <input type="hidden" />
+                    <input type="hidden" name="contact" value="contact" />
+                    <input type="text" name="yup" style={{display: "none"}} />
                     <input type="submit" value="Contact Us"/>
                 </form>
             }
