@@ -1,11 +1,12 @@
 import React from 'react'
+import ElevateRecoveryHomes from './ElevateRecoveryHomes'
 import { Link } from 'react-router-dom'
 
 function WhyUs() {
     return (
         <section className="program__why-us">
             <div className="program__why-us--choose">
-                <h2>Why Choose Us?</h2>
+                <h2>WHY CHOOSE US<span>?</span></h2>
                 <hr/>
                 <h5>“If you don’t know where you are going, any road will take you there.” </h5>
                 <p>
@@ -18,6 +19,7 @@ function WhyUs() {
                 <button id="why-us--elevation-plan" ><Link className="links" id="elevation-plan" to="/program/elevation-plan">ELEVATION PLAN</Link></button>
 
             </div>
+            <ElevateRecoveryHomes />
             <div className="program__why-us--pillars">
                 <div className="program__why-us--pillars--cards">
                     <h4>STRUCTURE</h4>

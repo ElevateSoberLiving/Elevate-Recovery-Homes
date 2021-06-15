@@ -7,7 +7,7 @@ function ElevateRecoveryHomes() {
             <div className="about-us__elevate-recovery-homes--our-mission">
                 <div>
                     <h2>- OUR MISSION -</h2>
-                    <h3>INDIVIDUALIZED SUPPORT THROUGH MEANINGFUL RELATIONSHIPS AND ACTION</h3>
+                    <h3>SUPPORT MEMBERS IN CREATING A LIFE OF PURPOSE AND VALUE</h3>
                         <br />
                     <p>
                             At Elevate Recovery Homes, our mission is to support members in creating a life of purpose and value. Early sobriety is much more than abstaining from drugs and alcohol. It is an opportunity to explore and engage in a completely new way of living. Our approach is simple, yet progressive. Equip members with the tools and principles to maintain sobriety and enable an overall lifestyle of growth and success, we do this by addressing the whole person, not just the substance use. 
