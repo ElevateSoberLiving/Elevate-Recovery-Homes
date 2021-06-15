@@ -74,7 +74,7 @@ function ElevationPlan() {
                     <h3>SELF-ACTUALIZATION SKILL DEVELOPMENT</h3>
                     <hr />
                     <div className="program__elevation-plan__weekly-meetings--skill-development">
-                        <Collapsible header={'VIVIDE VISION'} >
+                        <Collapsible header={'VIVID VISION'} >
                             <li>Goal Setting Development</li>
                             <li>Visualization Workshops</li>
                             <li>Keynote groups (Mike Dent)</li>
