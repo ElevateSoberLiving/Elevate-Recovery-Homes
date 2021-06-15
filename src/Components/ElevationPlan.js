@@ -77,7 +77,7 @@ function ElevationPlan() {
                         <Collapsible header={'VIVID VISION'} >
                             <li>Goal Setting Development</li>
                             <li>Visualization Workshops</li>
-                            <li>Keynote groups (Mike Dent)</li>
+                            <li>Keynote groups</li>
                         </Collapsible>
                         <Collapsible header={'FAMLIY GOALS'} >
                             <li>Relationship building</li>
@@ -103,7 +103,6 @@ function ElevationPlan() {
                         </Collapsible>
                         <Collapsible header={'FINANCIAL OBLIGATIONS'} >
                             <li>Personal budget development</li>
-                            <li>Securing car insurance</li>
                         </Collapsible>
                         <Collapsible header={'FINANCIAL GOALS'} >
                             <li>Financial management review and oversight</li>
