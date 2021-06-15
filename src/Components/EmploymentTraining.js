@@ -1,6 +1,6 @@
 import React from 'react'
 import Training from '../Assets/Images/Stock-Training-min.jpg'
-import RockClimbing from '../Assets/Images/Rock-Climbing-min.jpg'
+import GuysMeeting from '../Assets/Images/Men-Meeting.jpeg'
 
 function EmploymentTraining() {
     return (
@@ -11,7 +11,6 @@ function EmploymentTraining() {
                         <h2>CAREER AND VOCATIONAL TRAINING</h2>
                         <hr />
                     </div>
-                    <img src={RockClimbing} alt="Rock climbing" />
                     <p>At Elevate, our mission is to support members in creating a life of purpose and value. As our members work toward attaining autonomy, independence, and personal fulfillment, we encourage them to find meaningful work and career goals that support this endeavor. Knowing who you are, what you’re good at, what excites you, and how “you do you” is vital to that process.</p>
                     <p>For members of our community who want job skills support, we utilize a Career Explorer Aptitude and Assessment test to help members identify career paths based on interests, abilities, and personality. Our staff provides members with one-on-one mentoring, attention to detail, and a layer of accountability that helps build momentum and keep goals in focus throughout the process.</p>
                     <h4>ONLINE TESTING AND ANALYSIS PROVIDES INFORMATION MEMEBERS NEED TO:</h4>
@@ -24,9 +23,9 @@ function EmploymentTraining() {
                             <li>Build a Resume of Relevant Accomplishments</li>
                             <li>Explore and Evaluate Careers Best Suited for Them</li>
                         </ul>
-
                     </div>
                 </div>
+                <img src={GuysMeeting} alt="Rock climbing" />
             </div>
 
             <div className="program__vocational-training--employment">

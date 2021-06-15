@@ -27,7 +27,10 @@ function ContactForm() {
                 "form-name": "contact",
                 ...formData
             })
-            .then(() => setFormSuccess(!formSuccess))
+            .then(() => {
+                setFormSuccess(!formSuccess)
+                setFormData(initialState)
+            })
             .catch(error => alert(error))
 
         })

@@ -29,7 +29,7 @@
     &__first-image{
         height: 47vw;
         object-fit: cover;
-        margin: 12rem 2rem 0 0;
+        margin: 0rem 2rem 0 0;
         width: 45vw;
 
         @include response(phone){
@@ -41,11 +41,12 @@
     &__first p{
         text-align: left;
         text-indent: 30px;
-        margin: .4rem 0;
+        margin: 1.2rem 0;
+        font-size: 1.5rem;
     }
 
     &__first{
-        margin: 3rem;
+        margin: 7rem 3rem;
         display: flex;
         align-items: center;
         @include response(phone){
@@ -73,7 +74,7 @@
         background-color: $black;
         color: $slate-gray;
         padding: 6rem;
-        margin: 10rem 0 7rem;
+        margin: 10rem 0 0rem;
 
         @include response(phone){
             padding: 6rem 0;
@@ -113,18 +114,18 @@
         left: calc(50% - 8rem);
         top: -0.9rem;
     }
-
+    // hsla(219,19%,97%,.9)
     &__third{
-        margin-bottom: 10rem;
-
-        
-
+        padding: 7rem 0 4rem;
+        margin: 6rem 0 10rem;
+        background: linear-gradient(hsla(0,0%,100%,.95),hsla(0,0%,100%,.95)),
+            url('../../Assets/Images/MountainLine-min.png') center -20% no-repeat;
         &--head{
             
             
             & h2{
                 color: $slate-gray;
-                font-size: 3rem;
+                font-size: 2.5rem;
                 text-shadow: 0 1px 3px hsla(0, 0%, 0%, .2);
             }
             & hr{
