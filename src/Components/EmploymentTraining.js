@@ -1,6 +1,6 @@
 import React from 'react'
 import Training from '../Assets/Images/Stock-Training-min.jpg'
-import GuysMeeting from '../Assets/Images/Men-Meeting.jpeg'
+import GuysMeeting from '../Assets/Images/Men-Meeting-min.jpeg'
 
 function EmploymentTraining() {
     return (

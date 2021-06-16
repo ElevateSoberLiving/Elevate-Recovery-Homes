@@ -1,5 +1,5 @@
 import React from 'react'
-import BryceHiking from '../Assets/Images/Bryce-Hiking.jpeg'
+import BryceHiking from '../Assets/Images/Bryce-Hiking-min.jpeg'
 import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
 
 function AdmissionInfo() {
