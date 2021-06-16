@@ -1,14 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../Assets/Logos/Elevate Logo Files/WEB/Elevate_Logo_Vertical_Color_RGB@2x.png'
-import Mountains from '../Assets/Images/MountainLine-min.png'
 import LookingComputer from '../Assets/Images/Looking-at-Computer-min.jpg'
 import Hiking from '../Assets/Images/Guy-Hiking-min.jpg'
 import HikingDesert from '../Assets/Images/Hiking-Desert-min.jpg'
 import EmbedVideo from '../Components/EmbedVideo'
 import Hero from '../Components/Hero'
 import { FaArrowRight } from 'react-icons/fa'
-// import Tour from '../Assets/Video/tour.mp4'
 
 function Home() {
     return (
@@ -29,7 +27,6 @@ function Home() {
                 <Link className="home__links" id="philosophy-link" to="/about/elevate-recovery-homes">OUR PHILOSOPHY</Link>
             </section>
             <section className="home__third">
-                {/* <img src={Mountains} id="mountains" alt="Rocky Mountains with peaks higher than clouds" /> */}
                 <div className="home__third--head">
                     <h2>WHY CHOOSE US</h2>
                     <hr />

@@ -85,7 +85,7 @@
 
 #contact-link{
     border: solid .5px $white-smoke;
-    border-radius: 20px;
+    border-radius: 28px;
     &:visited{
         color: $white-smoke;
     }
@@ -96,7 +96,7 @@
 
 #community-link{
     border: solid .5px $yellow;
-    border-radius: 20px;
+    border-radius: 28px;
 
     &:visited{
         color: $black;
@@ -105,6 +105,8 @@
 
         color: $black;
     }
+
+    
 }
 
 .location-links{
@@ -113,4 +115,9 @@
     font-size: 1.2rem;
     padding: .5rem 1.5rem;
     text-decoration: none;
+
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 5px hsla(0,0%,0%, .4);
+    }
 }
