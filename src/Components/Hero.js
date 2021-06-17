@@ -9,8 +9,7 @@ function Hero() {
             <div className="hero__title">
                 <h1 className="hero__title--header"><span>F</span>INISH <span>T</span>HE <span>J</span>OURNEY <span>Y</span>OU <span>S</span>TARTED</h1>
                 <hr/>
-                {/* <p className="hero__title--body"><b>“IF YOU DON’T KNOW WHERE YOU’RE GOING, ANY ROAD WILL TAKE YOU THERE”</b></p> */}
-                <Link className="hero__title--button" to="/about/elevate-recovery-homes" >ABOUT US</Link>
+                <Link className="hero__title--button" to="/program/why-us" >WHY US</Link>
             </div>
         </div>
     )
