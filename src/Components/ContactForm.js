@@ -39,6 +39,7 @@ function ContactForm() {
 
     const handleChange = ( event ) => {
         setFormData({
+            ...formData,
             [event.target.name]: event.target.value
         })
     }
@@ -48,7 +49,25 @@ function ContactForm() {
             {formSuccess ?
                 <h3>Thank you for interest well be in contact soon</h3>
                 :
-                <form className="contact__form" name="contact" onSubmit={handleSubmit} netlify>
+                <form className="contact__form" name="contact"  method="post">
+                    <label>Name:</label>
+                    <input name="name"/>
+                    <label>Phone Number:</label>
+                    <input name="phoneNumber"/>
+                    <label>Email Address:</label>
+                    <input type="email" name="email" />
+                    <label>Comments</label>
+                    <textarea name="comments"/>
+                    <input type="hidden" name="contact" value="contact" />
+                    <input type="submit" value="Contact Us"/>
+                </form>
+            }
+        </div>
+    )
+}
+
+export default ContactForm
+{/* <form className="contact__form" name="contact" onSubmit={handleSubmit} method="post">
                     <label>Name:</label>
                     <input name="name" value={formData.name} onChange={handleChange}/>
                     <label>Phone Number:</label>
@@ -58,12 +77,5 @@ function ContactForm() {
                     <label>Comments</label>
                     <textarea name="comments" value={formData.comments} onChange={handleChange}/>
                     <input type="hidden" name="contact" value="contact" />
-                    <input type="text" name="yup" style={{display: "none"}} />
                     <input type="submit" value="Contact Us"/>
-                </form>
-            }
-        </div>
-    )
-}
-
-export default ContactForm
+                </form> */}
