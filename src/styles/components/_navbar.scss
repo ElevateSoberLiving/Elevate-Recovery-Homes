@@ -28,6 +28,11 @@
         align-items: center;
         list-style-type: none;
 
+        @include response(tab-land){
+            margin-right: 2vw;
+            width: 70vw;
+        }
+
         @include response(tab-port){
             right: 8vw;
         }
@@ -90,11 +95,11 @@
     }
 
     @include response(tab-land){
-        width: 74vw;
+        width: 82vw;
     }
 
     @include response(tab-port){
-        width: 73vw;
+        width: 86vw;
     }
     @include response(tab-port-sm){
         width: 73vw;
@@ -155,7 +160,6 @@
     width: 58vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
     z-index: 3;
     height: 100%;
@@ -163,7 +167,7 @@
     transition: 350ms ease  500ms;  
     
     @include response(tab-land){
-        width: 61vw;
+        // width: 61vw;
     }
     @include response(tab-port){
         width: 53vw;
@@ -190,7 +194,7 @@
 
 .links-container:hover{
     .navbar__menu--submenu{
-        @media only screen and (min-width: 700px){
+        @media only screen and (min-width: 750px){
             display: block;
         }
     }

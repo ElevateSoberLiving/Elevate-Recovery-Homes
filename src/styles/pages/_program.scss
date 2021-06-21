@@ -466,12 +466,12 @@
     top: 2.5rem;
     left: calc(50% - 12.5rem);
     width: 25rem;
-    height: .7rem;
+    height: 1.5vh;
     background-color: $yellow;
     clip-path: polygon(0 1vh, 40% 1vh, 43% .5vh, 44% .75vh, 47% 0, 50% 1vh, 100% 1vh, 100% 100%, 0 100%);
-    @include response(phone){
+
+    @include response(tab-port){
         top: 3.2rem;
-        height: 1.2rem;
     }
 }
 
