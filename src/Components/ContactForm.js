@@ -30,12 +30,12 @@ function ContactForm() {
                 })
             })
             .then((message) => {
-                console.log(message)
+                console.log('success', message)
                 setFormSuccess(!formSuccess)
                 setFormData(initialState)
             })
             .catch(error => {
-                console.log(error)
+                console.log('Fail', error)
                 alert(error)
             })
     }
@@ -49,8 +49,8 @@ function ContactForm() {
 
     return (
         <div>
-            { false ?
-                <h3>Thank you for interest well be in contact soon</h3>
+            { formSuccess ?
+                <h3 id="success-message">THANK YOU FOR YOUR INTEREST WE WILL BE IN CONTACT SOON</h3>
                 :
                 <form className="contact__form" name="contact"  method="post" onSubmit={handleSubmit} >
                     <label>Name:</label>
