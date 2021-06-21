@@ -30,12 +30,10 @@ function ContactForm() {
                 })
             })
             .then((message) => {
-                console.log('success', message)
                 setFormSuccess(!formSuccess)
                 setFormData(initialState)
             })
             .catch(error => {
-                console.log('Fail', error)
                 alert(error)
             })
     }
