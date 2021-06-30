@@ -9,6 +9,7 @@ import FAQ from './pages/FAQ'
 import { useEffect } from 'react'
 import FixedHeader from './Components/FixedHeader'
 import Footer from './Components/Footer'
+import ScrollToTop from './Components/ScrollToTop';
 import {
   BrowserRouter as Router,
   Route,
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <FixedHeader />
         
         <Switch>
