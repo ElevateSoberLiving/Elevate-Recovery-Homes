@@ -468,7 +468,7 @@
     width: 25rem;
     height: 1.5vh;
     background-color: $yellow;
-    clip-path: polygon(0 1vh, 40% 1vh, 43% .5vh, 44% .75vh, 47% 0, 50% 1vh, 100% 1vh, 100% 100%, 0 100%);
+    clip-path: polygon(0 6px, 40% 6px, 43% 3px, 44% 5px, 47% 0, 50% 6px, 100% 6px, 100% 100%, 0 100%);
 
     @include response(tab-port){
         top: 3.2rem;

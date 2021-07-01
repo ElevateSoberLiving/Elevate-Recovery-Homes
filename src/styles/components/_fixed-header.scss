@@ -40,3 +40,13 @@
     margin: 2rem;
 }
 
+#call-us{
+    text-decoration: none;
+    color: $yellow;
+    
+    &:visited{
+        color: $yellow;
+    }
+
+
+}

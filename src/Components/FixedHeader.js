@@ -14,8 +14,10 @@ function FixedHeader() {
             <div className="fixed-header__left">
                 <img className="fixed-header__logo" src={LogoWhite} alt="Elevate Recovery Homes Logo" />
                 <div>
-                    <h3>CALL US</h3>
-                    <h4>(720) 300-3861</h4>
+                    <a id="call-us" href="tel:+17203003861">
+                        <h3>CALL US</h3>
+                        <h4>(720) 300-3861</h4>
+                    </a>
                 </div>
             </div>
             <div className="fixed-header__menu">
