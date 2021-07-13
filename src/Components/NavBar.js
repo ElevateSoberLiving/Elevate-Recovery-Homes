@@ -8,9 +8,9 @@ function NavBar({ showMenu, setShowMenu }) {
     return (
         <nav className={showMenu ? 'navbar active' : 'navbar'}>
             <ul className="navbar__menu">
-                <li className={showMenu ? "links-container active" : 'links-container'}>
+                {/* <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" to="/" onClick={setShowMenu} >HOME</Link>
-                </li>
+                </li> */}
                 <li className={showMenu ? "links-container active" : 'links-container'} >
                     <Link className="links sublinks" to="/program/why-us" onClick={setShowMenu} >WHY US</Link>
                     <SubMenu >
