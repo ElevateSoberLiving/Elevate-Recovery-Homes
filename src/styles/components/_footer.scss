@@ -28,29 +28,29 @@
         @include response(phone){
                 width: 60%;
         }
+        
         & div{
             display: flex;
             justify-content: center;
             align-items: center;
             height: 2rem;
             width: 2rem;
+            padding-top: 3%;
             background-color: $white-smoke;
             border-radius: 50%;
+
+            & > a:link, > a:visited{
+                color: $black;
+            }
+        }
+        & div:nth-child(2){
+            border: solid .5px $yellow;
+            border-radius: 0px;
+            width: 1px;
+
+            background-color: black;
         }
     }
-
-    &__menu{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        list-style-type: none;
-    }
-}
-
-#footer-break{
-    width: 80%;
-    color: $yellow;
-    margin: .5rem 0;
 }
 
 #copyright{

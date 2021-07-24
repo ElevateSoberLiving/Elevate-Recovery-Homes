@@ -18,15 +18,16 @@ function NavBar({ showMenu, setShowMenu }) {
                     </SubMenu>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
-                </li>
-                <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links" to="/program/elevation-plan" onClick={setShowMenu}>ELEVATION PLAN</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/program/what-to-expect" onClick={setShowMenu} >WHAT TO EXPECT</Link></li>
                         <li ><Link className="links sublinks" to="/program/vocational-training" onClick={setShowMenu} >VOCATIONAL TRAINING</Link></li>
                     </SubMenu>
                 </li>
+                <li className={showMenu ? "links-container active" : 'links-container'}>
+                    <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
+                </li>
+                
                 <li className={showMenu ? "links-container active" : 'links-container'}>
                     <Link className="links " to="/admissions/admission-info" onClick={setShowMenu} >ADMISSIONS INFO</Link>
                     <SubMenu>
