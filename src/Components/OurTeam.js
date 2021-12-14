@@ -45,7 +45,7 @@ function OurTeam() {
                         <img id="signature-img" src={Signature} alt="Bryce Givens Signature" />
                     </div>
                 </div>
-                <img src={BrycePlaid} alt="Selfie of the founder of Elevate Recovery Homes in the mountains." id="letter-img" />
+                <img src={BrycePlaid} alt="The founder of Elevate Recovery Homes in the mountains." id="letter-img" />
             </div>
         </section>
     )
