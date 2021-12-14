@@ -22,11 +22,11 @@ function Contact() {
                     </div>
                     <div>
                         <FaMapMarkerAlt className="contact__icons" />
-                        <h5>3004 W TUFTS AVE,<br /> ENGLEWOOD, CO 80110</h5>
+                        <h5>ENGLEWOOD, CO<br />ARVADA, CO</h5>
                     </div>
                     <div>
                         <FaPhone className="contact__icons" />
-                        <h5>(720) 300-3861</h5>
+                        <h5>(303) 358-1799</h5>
                     </div>
                     <div>
                         <FaEnvelope className="contact__icons" />

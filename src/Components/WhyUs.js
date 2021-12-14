@@ -10,7 +10,7 @@ function WhyUs() {
                 <hr/>
                 <h5>“If you don’t know where you are going, any road will take you there.” </h5>
                 <p>
-                Substance Use Disorder (SUD) is a crisis in America today. More than 21 million Americans are suffering from substance abuse disorder. In the U.S., There is an addiction-related death every 4 minutes. To combat this, we have developed a community to help our members create a life blueprint. We call it an Elevation Plan.
+                Substance Use Disorder (SUD) is a crisis in America today. More than 21 million Americans are suffering from substance use disorder. In the U.S., There is an addiction-related death every 4 minutes. To combat this, we have developed a community to help our members create a life blueprint. We call it an Elevation Plan.
                 </p>
                 <br/>
                 <p>

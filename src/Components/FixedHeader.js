@@ -19,7 +19,7 @@ function FixedHeader() {
                 <div>
                     <a id="call-us" href="tel:+17203003861">
                         <h3>CALL US</h3>
-                        <h4>(720) 300-3861</h4>
+                        <h4>(303) 358-1799</h4>
                     </a>
                 </div>
             </div>

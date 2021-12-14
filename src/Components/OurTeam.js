@@ -1,6 +1,6 @@
 import React from 'react'
 import Signature from '../Assets/Images/Bryce-Givens-Sig-min.jpeg'
-import BryceSelfie from '../Assets/Images/Bryce-Selfie-min.jpg'
+import BrycePlaid from '../Assets/Images/Bryce-Plaid.jpeg'
 
 function OurTeam() {
     return (
@@ -45,7 +45,7 @@ function OurTeam() {
                         <img id="signature-img" src={Signature} alt="Bryce Givens Signature" />
                     </div>
                 </div>
-                <img src={BryceSelfie} alt="Selfie of the founder of Elevate Recovery Homes in the mountains." id="letter-img" />
+                <img src={BrycePlaid} alt="Selfie of the founder of Elevate Recovery Homes in the mountains." id="letter-img" />
             </div>
         </section>
     )
