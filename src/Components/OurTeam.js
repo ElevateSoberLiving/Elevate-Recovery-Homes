@@ -1,6 +1,6 @@
 import React from 'react'
 import Signature from '../Assets/Images/Bryce-Givens-Sig-min.jpeg'
-import BrycePlaid from '../Assets/Images/Bryce-Plaid.jpeg'
+import BrycePlaid from '../Assets/Images/Bryce-Plaid-min.jpeg'
 
 function OurTeam() {
     return (

@@ -269,6 +269,8 @@
     width: 46vw;
     margin-left: 1rem;
     height: 96vh;
+    object-fit: cover;
+    object-position: 41% 24%;
 
     @include response(tab-port){
         width: 100%;
