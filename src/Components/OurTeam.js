@@ -20,6 +20,10 @@ function OurTeam() {
                         <br />Bryce’s approach to treatment and recovery is simple.  Offer men the guidance, insight, and compassion they need, and watch them grow.  His personal journey through addiction and into a life of fullness in sobriety acts as a beacon of light to men from all walks of life.  As program administrator and head of operations oversight, Bryce ensures that all of our members are getting the treatment and tools to overcome addiction and excel in every area of life.
                         <br />
                         <br />
+                        <span>Robby Mitchell - DIRECTOR - Outreach and Housing</span>
+                        <br />Robby's recovery journey began long before he was sober. Back when he still believed he was a broken man. But through the grace of God, the blessing and trial that prison was, the accountability of his peers, the loving guidance of multiple treatment professionals, he has come into this recovery journey as a uniquely whole man. His WHY in life is to help guide others trying to navigate their way to freedom. By providing loving care, accountability, and an immediate call to action, he walks alongside members in their recovery journey. 
+                        <br />
+                        <br />
                     </p>
                 </div>
             </div>
