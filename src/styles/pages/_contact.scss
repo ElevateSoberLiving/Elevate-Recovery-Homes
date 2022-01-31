@@ -1,6 +1,6 @@
 .contact{
     margin-top: 10vh;
-    height: 125vh;
+    height: 150vh;
     text-align: left;
     
     display: flex;
@@ -104,7 +104,7 @@
 
 .contact::before{
     content: '';
-    height: 125vh;
+    height: 150vh;
     width: 100vw;
     position: absolute;
     z-index: -1;
