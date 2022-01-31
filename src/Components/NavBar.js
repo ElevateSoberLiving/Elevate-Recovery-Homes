@@ -22,7 +22,7 @@ function NavBar({ showMenu, setShowMenu }) {
                     </SubMenu>
                 </li>
                 <li className={showMenu ? "links-container active" : 'links-container'}>
-                    <Link className="links" to="/location" onClick={setShowMenu} >LOCATION</Link>
+                    <Link className="links" to="/location" onClick={setShowMenu} >LOCATIONS</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/admissions/tufts-home" onClick={setShowMenu} >TUFTS HOME</Link></li>
                         {/* <li ><Link className="links sublinks" to="/admissions/ridge-road-home" onClick={setShowMenu} >RIDGE ROAD HOME</Link></li> */}
