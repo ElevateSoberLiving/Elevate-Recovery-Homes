@@ -47,11 +47,7 @@ function ContactForm() {
 
     return (
         <div className="contact__form">
-            { true ?
-                <h3 id="success-message">THANK YOU FOR YOUR INTEREST WE WILL BE IN CONTACT SOON</h3>
-                :
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer_CXzGXLVpYM-7s1NBXEHm6J5mNb1eUWErN3wzpRSd3ZOAQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0" title="Elevate Recovery Home Intake/Contact Form">Loading…</iframe>
-            }
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer_CXzGXLVpYM-7s1NBXEHm6J5mNb1eUWErN3wzpRSd3ZOAQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0" title="Elevate Recovery Home Intake/Contact Form">Loading…</iframe>
         </div>
     )
 }
