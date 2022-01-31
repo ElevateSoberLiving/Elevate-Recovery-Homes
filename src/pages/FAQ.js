@@ -21,7 +21,7 @@ function FAQ() {
                 <hr/>
                 <div>
                     <p>Still have questions after reading through the FAQ?  Please contact us.</p>
-                    <Link id="faq-button" to="/contact">CONTACT US</Link>
+                    <Link className="location-links" id="community-link" to="/contact">CONTACT US</Link>
                 </div>
             </div>
             {handleFaqData()}

@@ -36,9 +36,9 @@ function Home() {
             </section>
             <section className="home__fourth">
                 <div className="home__fourth--head">
-                    <h2>LOCATION</h2>
-                    <p>Elevate is located just minutes from Denver’s beautiful Front Range in Englewood—an ideal neighborhood for men looking for a fresh start.</p>
-                    <Link className="home__links" id="location-link" to="/location">LOCATION</Link>
+                    <h2>LOCATIONS</h2>
+                    <p>Elevate Recovery Homes are located just minutes from Denver’s beautiful Front Range. We have homes in Englewood, Arvada, and Centennial — ideal neighborhoods for men looking for a fresh start.</p>
+                    <Link className="home__links" id="location-link" to="/location">LOCATIONS</Link>
                 </div>
                 <img src={Hiking} id="hiking" alt="Guy hiking in mountains" />
             </section>
@@ -63,7 +63,7 @@ function Home() {
             </section>
             <section className="home__seventh">
                 <div className="home__seventh--head">
-                    <h2>THE HOUSE</h2>
+                    <h2>THE TUFTS HOUSE</h2>
                     <Link className="home__links" id="house-link" to="/admissions/tufts-home">MORE ABOUT TUFTS HOME</Link>
                 </div>
                 <EmbedVideo videoId={"https://www.youtube.com/watch?v=mJBBOGuYFIs"} />
