@@ -46,22 +46,11 @@ function ContactForm() {
     }
 
     return (
-        <div>
+        <div className="contact__form">
             { formSuccess ?
                 <h3 id="success-message">THANK YOU FOR YOUR INTEREST WE WILL BE IN CONTACT SOON</h3>
                 :
-                <form className="contact__form" name="contact"  method="post" onSubmit={handleSubmit} >
-                    <label>Name:</label>
-                    <input name="name"value={formData.name} onChange={handleChange} />
-                    <label>Phone Number:</label>
-                    <input name="phoneNumber" value={formData.phoneNumber} onChange={handleChange}/>
-                    <label>Email Address:</label>
-                    <input type="email" name="email" value={formData.email} onChange={handleChange}/>
-                    <label>Comments</label>
-                    <textarea id="" name="comments" value={formData.comments} onChange={handleChange}/>
-                    <input type="hidden" name="contact" value="contact" />
-                    <input type="submit" value="Contact Us"/>
-                </form>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer_CXzGXLVpYM-7s1NBXEHm6J5mNb1eUWErN3wzpRSd3ZOAQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             }
         </div>
     )

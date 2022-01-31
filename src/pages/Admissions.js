@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router'
 import TuftsHome from '../Components/TuftsHome'
+import RidgeRoadHome from '../Components/RidgeRoadHome'
 import AdmissionInfo from '../Components/AdmissionInfo'
 import Community from '../Components/Community'
 
@@ -13,6 +14,9 @@ function Admissions() {
                 </Route >
                 <Route path="/admissions/tufts-home">
                     <TuftsHome />
+                </Route>
+                <Route path="/admissions/ridge-road-home">
+                    <RidgeRoadHome />
                 </Route>
                 <Route path="/admissions/admission-info">
                     <AdmissionInfo />

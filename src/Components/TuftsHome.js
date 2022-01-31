@@ -1,10 +1,10 @@
 import React from 'react'
-import ElevateLiving from '../Assets/Images/House-Img/ElevateLiving-min.jpg'
-import ElevateKit from '../Assets/Images/House-Img/ElevateKit-min.jpg'
-import ElevateFront from '../Assets/Images/House-Img/ElevateFront-min.jpg'
-import ElevateBath from '../Assets/Images/House-Img/ElevateBath-min.jpg'
-import ElevateSmBed from '../Assets/Images/House-Img/ElevateSmBed-min.jpg'
-import ElevateChicken from '../Assets/Images/House-Img/ElevateChicken-min.jpg'
+import ElevateLiving from '../Assets/Images/Tuft-House-Img/ElevateLiving-min.jpg'
+import ElevateKit from '../Assets/Images/Tuft-House-Img/ElevateKit-min.jpg'
+import ElevateFront from '../Assets/Images/Tuft-House-Img/ElevateFront-min.jpg'
+import ElevateBath from '../Assets/Images/Tuft-House-Img/ElevateBath-min.jpg'
+import ElevateSmBed from '../Assets/Images/Tuft-House-Img/ElevateSmBed-min.jpg'
+import ElevateChicken from '../Assets/Images/Tuft-House-Img/ElevateChicken-min.jpg'
 
 function TuftsHome() {
     return (

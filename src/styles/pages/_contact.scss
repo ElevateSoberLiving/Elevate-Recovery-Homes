@@ -1,6 +1,6 @@
 .contact{
-    margin-top: 15vh;
-    height: 100vh;
+    margin-top: 10vh;
+    height: 125vh;
     text-align: left;
     
     display: flex;
@@ -31,6 +31,9 @@
             @include response(phone){
                 margin-bottom: .5rem;
             }
+        }
+        & > div{
+            margin-bottom: 2rem;
         }
     }
 
@@ -101,7 +104,7 @@
 
 .contact::before{
     content: '';
-    height: 100vh;
+    height: 125vh;
     width: 100vw;
     position: absolute;
     z-index: -1;
