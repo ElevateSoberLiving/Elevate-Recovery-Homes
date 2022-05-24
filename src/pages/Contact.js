@@ -22,7 +22,7 @@ function Contact() {
                     </div>
                     <div>
                         <FaMapMarkerAlt className="contact__icons" />
-                        <h5>ENGLEWOOD, CO<br />ARVADA, CO</h5>
+                        <h5>ENGLEWOOD, CO<br />ARVADA, CO<br />CENTENNIAL, CO</h5>
                     </div>
                     <div>
                         <FaPhone className="contact__icons" />

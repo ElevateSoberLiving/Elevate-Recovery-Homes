@@ -25,7 +25,8 @@ function NavBar({ showMenu, setShowMenu }) {
                     <Link className="links" to="/location" onClick={setShowMenu} >LOCATIONS</Link>
                     <SubMenu>
                         <li ><Link className="links sublinks" to="/admissions/tufts-home" onClick={setShowMenu} >TUFTS HOME</Link></li>
-                        {/* <li ><Link className="links sublinks" to="/admissions/ridge-road-home" onClick={setShowMenu} >RIDGE ROAD HOME</Link></li> */}
+                        <li ><Link className="links sublinks" to="/admissions/penrose-home" onClick={setShowMenu} >PENROSE HOME</Link></li>
+                        <li ><Link className="links sublinks" to="/admissions/winona-home" onClick={setShowMenu} >WINONA HOME</Link></li>
                     </SubMenu>
                 </li>
                 

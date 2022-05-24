@@ -112,7 +112,7 @@
     }
 
 
-    &__tufts{
+    &__houses{
         margin: 25vh 5rem 5rem;
         @include response(phone){
             margin: 15vh auto 5rem;
@@ -153,7 +153,7 @@
             top: 25%;
             z-index: -1;
             width: 100vw;
-            height: 120vh;
+            height: 140vh;
             background-color: $black;
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
             @include response(phone){
@@ -288,7 +288,7 @@
     }
 }
 
-#living-img1{
+#house-img1{
     grid-column-start: 1;
     grid-row-start: 1;
     justify-self: center;
@@ -297,7 +297,7 @@
         grid-row-start: 1;
     }
 }
-#kitchen-img2{
+#house-img2{
     grid-column-start: 2;
     grid-row-start: 1;
     justify-self: center;
@@ -307,7 +307,7 @@
     }
     
 }
-#front-house-img3{
+#house-img3{
     grid-column-start: 1;
     grid-row-start: 2;
     justify-self: center;
@@ -316,7 +316,7 @@
         grid-row-start: 3;
     }
 }
-#bathroom-img4{
+#house-img4{
     grid-column-start: 2;
     grid-row-start: 2;
     justify-self: center;
@@ -325,7 +325,7 @@
         grid-row-start: 4;
     }
 }
-#small-bed-img5{
+#house-img5{
     grid-column-start: 1;
     grid-row-start: 3;
     justify-self: center;
@@ -334,7 +334,7 @@
         grid-row-start: 5;
     }
 }
-#chicken-img6{
+#house-img6{
     grid-column-start: 2;
     grid-row-start: 3;
     justify-self: center;
