@@ -1,4 +1,5 @@
 import React from 'react'
+import EmbedVideo from './EmbedVideo'
 import WinonaHouseLiving from '../Assets/Images/Winona-House-Img/WinonaHouseLiving-min.jpg'
 import WinonaHouseKitchen from '../Assets/Images/Winona-House-Img/WinonaHouseKitchen-min.jpg'
 import WinonaHouseBaseLiving from '../Assets/Images/Winona-House-Img/WinonaHouseBaseLiving-min.jpg'
@@ -22,6 +23,9 @@ function WinonaHome() {
                 <img id="house-img4" src={WinonaHouseBaseKit} alt="basement kitchen" />
                 <img id="house-img5" src={WinonaHouseBedroom} alt="winona house bedroom" />
                 <img id="house-img6" src={WinonaHouseBath} alt="winona house bathroom" />
+            </div>
+            <div className="admissions__houses--vid-container">
+                <EmbedVideo videoId={"https://www.youtube.com/watch?v=aOhvgPp7dfQ"} />
             </div>
         </section>
     )

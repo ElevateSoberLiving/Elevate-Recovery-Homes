@@ -153,7 +153,7 @@
             top: 25%;
             z-index: -1;
             width: 100vw;
-            height: 140vh;
+            height: 165vh;
             background-color: $black;
             clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw) , 0 100%);
             @include response(phone){
@@ -183,6 +183,10 @@
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
             }
+        }
+        &--vid-container{
+            display: flex;
+            justify-content: center;
         }
     }
 
